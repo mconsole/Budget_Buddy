@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ExpenseAdd));
             this.label4 = new System.Windows.Forms.Label();
             this.newExpType = new System.Windows.Forms.ComboBox();
             this.newExpCancel = new System.Windows.Forms.Button();
@@ -207,6 +208,7 @@
             this.Controls.Add(this.newExpName);
             this.Controls.Add(this.newExpClear);
             this.Controls.Add(this.newExpAdd);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ExpenseAdd";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add Expense Item";

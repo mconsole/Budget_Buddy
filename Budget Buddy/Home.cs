@@ -40,15 +40,7 @@ namespace Budget_Buddy
         {
             this.Close();
         }
-
-        private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Login login = new Login();
-            this.Hide();
-            this.Owner = login;
-            login.Show();
-        }
-
+        
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Created by Mitchell Console 2017 \n Version 1.0.0");

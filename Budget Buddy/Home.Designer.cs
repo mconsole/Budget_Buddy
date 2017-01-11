@@ -28,36 +28,42 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea26 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series26 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title13 = new System.Windows.Forms.DataVisualization.Charting.Title();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea27 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series27 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title14 = new System.Windows.Forms.DataVisualization.Charting.Title();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea28 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series28 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title15 = new System.Windows.Forms.DataVisualization.Charting.Title();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea29 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series29 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title16 = new System.Windows.Forms.DataVisualization.Charting.Title();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea30 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series30 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea31 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series31 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea32 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend8 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series32 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea25 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series25 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title2 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title3 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title4 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.logoutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.managementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.incomeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.expensesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.editToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.savingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.editToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -68,63 +74,57 @@
             this.income = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.savings = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.incomeTab = new System.Windows.Forms.TabPage();
-            this.incomeTabChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.expenseTab = new System.Windows.Forms.TabPage();
-            this.savingsTab = new System.Windows.Forms.TabPage();
-            this.label1 = new System.Windows.Forms.Label();
-            this.avgSalary = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.miscIncome = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
             this.bonuses = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.housingTot = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.utilities = new System.Windows.Forms.Label();
-            this.utilitiesTot = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.groceriesTot = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.transTot = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.eatOutTot = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.personalTot = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.entertainTot = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.debtTot = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.savingsExpTot = new System.Windows.Forms.TextBox();
+            this.avgSalary = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.incomeTabChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.expenseTab = new System.Windows.Forms.TabPage();
             this.label12 = new System.Windows.Forms.Label();
             this.childTot = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.savingsExpTot = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.debtTot = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.entertainTot = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.personalTot = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.eatOutTot = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.transTot = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.groceriesTot = new System.Windows.Forms.TextBox();
+            this.utilities = new System.Windows.Forms.Label();
+            this.utilitiesTot = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.housingTot = new System.Windows.Forms.TextBox();
+            this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.savingsTab = new System.Windows.Forms.TabPage();
+            this.label23 = new System.Windows.Forms.Label();
+            this.savOther = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.savEmFund = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.savRetire = new System.Windows.Forms.TextBox();
+            this.chart3 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.savNetIncome = new System.Windows.Forms.TextBox();
-            this.miscIncome = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.chart3 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.addToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.addToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.editToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.addToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.editToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.label21 = new System.Windows.Forms.Label();
-            this.savRetire = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.savEmFund = new System.Windows.Forms.TextBox();
-            this.label23 = new System.Windows.Forms.Label();
-            this.savOther = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.homeTabs.SuspendLayout();
             this.overview.SuspendLayout();
@@ -135,9 +135,9 @@
             this.incomeTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.incomeTabChart)).BeginInit();
             this.expenseTab.SuspendLayout();
-            this.savingsTab.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
+            this.savingsTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart3)).BeginInit();
             this.SuspendLayout();
             // 
@@ -159,18 +159,10 @@
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.logoutToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "&File";
-            // 
-            // logoutToolStripMenuItem
-            // 
-            this.logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
-            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.logoutToolStripMenuItem.Text = "Logout";
-            this.logoutToolStripMenuItem.Click += new System.EventHandler(this.logoutToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
@@ -195,8 +187,21 @@
             this.addToolStripMenuItem,
             this.editToolStripMenuItem});
             this.incomeToolStripMenuItem.Name = "incomeToolStripMenuItem";
-            this.incomeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.incomeToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
             this.incomeToolStripMenuItem.Text = "Income";
+            // 
+            // addToolStripMenuItem
+            // 
+            this.addToolStripMenuItem.Name = "addToolStripMenuItem";
+            this.addToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
+            this.addToolStripMenuItem.Text = "Add";
+            this.addToolStripMenuItem.Click += new System.EventHandler(this.addToolStripMenuItem_Click);
+            // 
+            // editToolStripMenuItem
+            // 
+            this.editToolStripMenuItem.Name = "editToolStripMenuItem";
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
+            this.editToolStripMenuItem.Text = "Edit";
             // 
             // expensesToolStripMenuItem
             // 
@@ -204,8 +209,21 @@
             this.addToolStripMenuItem1,
             this.editToolStripMenuItem1});
             this.expensesToolStripMenuItem.Name = "expensesToolStripMenuItem";
-            this.expensesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.expensesToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
             this.expensesToolStripMenuItem.Text = "Expenses";
+            // 
+            // addToolStripMenuItem1
+            // 
+            this.addToolStripMenuItem1.Name = "addToolStripMenuItem1";
+            this.addToolStripMenuItem1.Size = new System.Drawing.Size(96, 22);
+            this.addToolStripMenuItem1.Text = "Add";
+            this.addToolStripMenuItem1.Click += new System.EventHandler(this.addToolStripMenuItem1_Click);
+            // 
+            // editToolStripMenuItem1
+            // 
+            this.editToolStripMenuItem1.Name = "editToolStripMenuItem1";
+            this.editToolStripMenuItem1.Size = new System.Drawing.Size(96, 22);
+            this.editToolStripMenuItem1.Text = "Edit";
             // 
             // savingsToolStripMenuItem
             // 
@@ -213,8 +231,20 @@
             this.addToolStripMenuItem2,
             this.editToolStripMenuItem2});
             this.savingsToolStripMenuItem.Name = "savingsToolStripMenuItem";
-            this.savingsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.savingsToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
             this.savingsToolStripMenuItem.Text = "Savings";
+            // 
+            // addToolStripMenuItem2
+            // 
+            this.addToolStripMenuItem2.Name = "addToolStripMenuItem2";
+            this.addToolStripMenuItem2.Size = new System.Drawing.Size(96, 22);
+            this.addToolStripMenuItem2.Text = "Add";
+            // 
+            // editToolStripMenuItem2
+            // 
+            this.editToolStripMenuItem2.Name = "editToolStripMenuItem2";
+            this.editToolStripMenuItem2.Size = new System.Drawing.Size(96, 22);
+            this.editToolStripMenuItem2.Text = "Edit";
             // 
             // toolsToolStripMenuItem
             // 
@@ -272,25 +302,25 @@
             this.expenses.BorderSkin.BackImageAlignment = System.Windows.Forms.DataVisualization.Charting.ChartImageAlignmentStyle.Center;
             this.expenses.BorderSkin.BorderColor = System.Drawing.Color.Transparent;
             this.expenses.BorderSkin.SkinStyle = System.Windows.Forms.DataVisualization.Charting.BorderSkinStyle.Sunken;
-            chartArea26.Name = "ChartArea1";
-            this.expenses.ChartAreas.Add(chartArea26);
+            chartArea1.Name = "ChartArea1";
+            this.expenses.ChartAreas.Add(chartArea1);
             this.expenses.Location = new System.Drawing.Point(0, 358);
             this.expenses.Name = "expenses";
-            series26.ChartArea = "ChartArea1";
-            series26.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series26.IsXValueIndexed = true;
-            series26.Name = "Series1";
-            series26.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Date;
-            series26.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Double;
-            this.expenses.Series.Add(series26);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series1.IsXValueIndexed = true;
+            series1.Name = "Series1";
+            series1.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Date;
+            series1.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Double;
+            this.expenses.Series.Add(series1);
             this.expenses.Size = new System.Drawing.Size(493, 338);
             this.expenses.TabIndex = 17;
             this.expenses.Text = "Expenses";
-            title13.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.LeftRight;
-            title13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            title13.Name = "Title1";
-            title13.Text = "Monthly Expenses";
-            this.expenses.Titles.Add(title13);
+            title1.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.LeftRight;
+            title1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            title1.Name = "Title1";
+            title1.Text = "Monthly Expenses";
+            this.expenses.Titles.Add(title1);
             // 
             // expenseTypes
             // 
@@ -299,24 +329,24 @@
             this.expenseTypes.BorderSkin.BackImageAlignment = System.Windows.Forms.DataVisualization.Charting.ChartImageAlignmentStyle.Center;
             this.expenseTypes.BorderSkin.BorderColor = System.Drawing.Color.Transparent;
             this.expenseTypes.BorderSkin.SkinStyle = System.Windows.Forms.DataVisualization.Charting.BorderSkinStyle.Sunken;
-            chartArea27.Name = "ChartArea1";
-            this.expenseTypes.ChartAreas.Add(chartArea27);
-            legend7.Name = "Legend1";
-            this.expenseTypes.Legends.Add(legend7);
+            chartArea2.Name = "ChartArea1";
+            this.expenseTypes.ChartAreas.Add(chartArea2);
+            legend1.Name = "Legend1";
+            this.expenseTypes.Legends.Add(legend1);
             this.expenseTypes.Location = new System.Drawing.Point(0, 0);
             this.expenseTypes.Name = "expenseTypes";
-            series27.ChartArea = "ChartArea1";
-            series27.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-            series27.Legend = "Legend1";
-            series27.Name = "Series1";
-            this.expenseTypes.Series.Add(series27);
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.expenseTypes.Series.Add(series2);
             this.expenseTypes.Size = new System.Drawing.Size(493, 352);
             this.expenseTypes.TabIndex = 16;
             this.expenseTypes.Text = "Expense Types";
-            title14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            title14.Name = "Title1";
-            title14.Text = "Expense Types";
-            this.expenseTypes.Titles.Add(title14);
+            title2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            title2.Name = "Title1";
+            title2.Text = "Expense Types";
+            this.expenseTypes.Titles.Add(title2);
             // 
             // income
             // 
@@ -325,24 +355,24 @@
             this.income.BorderSkin.BackImageAlignment = System.Windows.Forms.DataVisualization.Charting.ChartImageAlignmentStyle.Center;
             this.income.BorderSkin.BorderColor = System.Drawing.Color.Transparent;
             this.income.BorderSkin.SkinStyle = System.Windows.Forms.DataVisualization.Charting.BorderSkinStyle.Sunken;
-            chartArea28.Name = "ChartArea1";
-            this.income.ChartAreas.Add(chartArea28);
+            chartArea3.Name = "ChartArea1";
+            this.income.ChartAreas.Add(chartArea3);
             this.income.Location = new System.Drawing.Point(499, 358);
             this.income.Name = "income";
-            series28.ChartArea = "ChartArea1";
-            series28.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series28.IsXValueIndexed = true;
-            series28.Name = "Series1";
-            series28.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Date;
-            series28.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Double;
-            this.income.Series.Add(series28);
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series3.IsXValueIndexed = true;
+            series3.Name = "Series1";
+            series3.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Date;
+            series3.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Double;
+            this.income.Series.Add(series3);
             this.income.Size = new System.Drawing.Size(493, 338);
             this.income.TabIndex = 15;
             this.income.Text = "Income";
-            title15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            title15.Name = "Title1";
-            title15.Text = "Monthly Income";
-            this.income.Titles.Add(title15);
+            title3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            title3.Name = "Title1";
+            title3.Text = "Monthly Income";
+            this.income.Titles.Add(title3);
             // 
             // savings
             // 
@@ -351,20 +381,20 @@
             this.savings.BorderSkin.BackImageAlignment = System.Windows.Forms.DataVisualization.Charting.ChartImageAlignmentStyle.Center;
             this.savings.BorderSkin.BorderColor = System.Drawing.Color.Transparent;
             this.savings.BorderSkin.SkinStyle = System.Windows.Forms.DataVisualization.Charting.BorderSkinStyle.Sunken;
-            chartArea29.Name = "ChartArea1";
-            this.savings.ChartAreas.Add(chartArea29);
+            chartArea4.Name = "ChartArea1";
+            this.savings.ChartAreas.Add(chartArea4);
             this.savings.Location = new System.Drawing.Point(499, 0);
             this.savings.Name = "savings";
-            series29.ChartArea = "ChartArea1";
-            series29.Name = "Series1";
-            this.savings.Series.Add(series29);
+            series4.ChartArea = "ChartArea1";
+            series4.Name = "Series1";
+            this.savings.Series.Add(series4);
             this.savings.Size = new System.Drawing.Size(493, 352);
             this.savings.TabIndex = 14;
             this.savings.Text = "Savings";
-            title16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            title16.Name = "Title1";
-            title16.Text = "Monthly Savings";
-            this.savings.Titles.Add(title16);
+            title4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            title4.Name = "Title1";
+            title4.Text = "Monthly Savings";
+            this.savings.Titles.Add(title4);
             // 
             // incomeTab
             // 
@@ -392,16 +422,159 @@
             this.incomeTab.Text = "Income";
             this.incomeTab.UseVisualStyleBackColor = true;
             // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(171, 294);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.ReadOnly = true;
+            this.textBox4.Size = new System.Drawing.Size(194, 23);
+            this.textBox4.TabIndex = 19;
+            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(71, 294);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(93, 20);
+            this.label20.TabIndex = 18;
+            this.label20.Text = "Inheritance:";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(171, 253);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
+            this.textBox3.Size = new System.Drawing.Size(194, 23);
+            this.textBox3.TabIndex = 17;
+            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(64, 253);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(100, 20);
+            this.label19.TabIndex = 16;
+            this.label19.Text = "Investments:";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(171, 212);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(194, 23);
+            this.textBox2.TabIndex = 15;
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(48, 212);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(117, 20);
+            this.label18.TabIndex = 14;
+            this.label18.Text = "Social Security:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(171, 171);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(194, 23);
+            this.textBox1.TabIndex = 13;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(89, 171);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(75, 20);
+            this.label17.TabIndex = 12;
+            this.label17.Text = "Disability:";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(132, 30);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(180, 26);
+            this.label16.TabIndex = 11;
+            this.label16.Text = "Monthly Income";
+            // 
+            // miscIncome
+            // 
+            this.miscIncome.Location = new System.Drawing.Point(171, 333);
+            this.miscIncome.Name = "miscIncome";
+            this.miscIncome.ReadOnly = true;
+            this.miscIncome.Size = new System.Drawing.Size(194, 23);
+            this.miscIncome.TabIndex = 6;
+            this.miscIncome.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(120, 333);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(45, 20);
+            this.label15.TabIndex = 5;
+            this.label15.Text = "Misc:";
+            // 
+            // bonuses
+            // 
+            this.bonuses.Location = new System.Drawing.Point(171, 129);
+            this.bonuses.Name = "bonuses";
+            this.bonuses.ReadOnly = true;
+            this.bonuses.Size = new System.Drawing.Size(194, 23);
+            this.bonuses.TabIndex = 4;
+            this.bonuses.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(89, 129);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(76, 20);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Bonuses:";
+            // 
+            // avgSalary
+            // 
+            this.avgSalary.Location = new System.Drawing.Point(171, 88);
+            this.avgSalary.Name = "avgSalary";
+            this.avgSalary.ReadOnly = true;
+            this.avgSalary.Size = new System.Drawing.Size(194, 23);
+            this.avgSalary.TabIndex = 2;
+            this.avgSalary.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(45, 88);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(120, 20);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Average Salary:";
+            // 
             // incomeTabChart
             // 
-            chartArea30.Name = "ChartArea1";
-            this.incomeTabChart.ChartAreas.Add(chartArea30);
+            chartArea5.Name = "ChartArea1";
+            this.incomeTabChart.ChartAreas.Add(chartArea5);
             this.incomeTabChart.Location = new System.Drawing.Point(413, 6);
             this.incomeTabChart.Name = "incomeTabChart";
-            series30.ChartArea = "ChartArea1";
-            series30.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series30.Name = "Series1";
-            this.incomeTabChart.Series.Add(series30);
+            series5.ChartArea = "ChartArea1";
+            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series5.Name = "Series1";
+            this.incomeTabChart.Series.Add(series5);
             this.incomeTabChart.Size = new System.Drawing.Size(579, 352);
             this.incomeTabChart.TabIndex = 0;
             this.incomeTabChart.Text = "chart1";
@@ -438,247 +611,23 @@
             this.expenseTab.Text = "Expenses";
             this.expenseTab.UseVisualStyleBackColor = true;
             // 
-            // savingsTab
+            // label12
             // 
-            this.savingsTab.Controls.Add(this.label23);
-            this.savingsTab.Controls.Add(this.savOther);
-            this.savingsTab.Controls.Add(this.label22);
-            this.savingsTab.Controls.Add(this.savEmFund);
-            this.savingsTab.Controls.Add(this.label21);
-            this.savingsTab.Controls.Add(this.savRetire);
-            this.savingsTab.Controls.Add(this.chart3);
-            this.savingsTab.Controls.Add(this.label13);
-            this.savingsTab.Controls.Add(this.label14);
-            this.savingsTab.Controls.Add(this.savNetIncome);
-            this.savingsTab.Location = new System.Drawing.Point(4, 25);
-            this.savingsTab.Name = "savingsTab";
-            this.savingsTab.Size = new System.Drawing.Size(992, 695);
-            this.savingsTab.TabIndex = 3;
-            this.savingsTab.Text = "Savings";
-            this.savingsTab.UseVisualStyleBackColor = true;
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(114, 450);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(48, 20);
+            this.label12.TabIndex = 22;
+            this.label12.Text = "Child:";
             // 
-            // label1
+            // childTot
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(45, 88);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 20);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Average Salary:";
-            // 
-            // avgSalary
-            // 
-            this.avgSalary.Location = new System.Drawing.Point(171, 88);
-            this.avgSalary.Name = "avgSalary";
-            this.avgSalary.ReadOnly = true;
-            this.avgSalary.Size = new System.Drawing.Size(194, 23);
-            this.avgSalary.TabIndex = 2;
-            this.avgSalary.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // bonuses
-            // 
-            this.bonuses.Location = new System.Drawing.Point(171, 129);
-            this.bonuses.Name = "bonuses";
-            this.bonuses.ReadOnly = true;
-            this.bonuses.Size = new System.Drawing.Size(194, 23);
-            this.bonuses.TabIndex = 4;
-            this.bonuses.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(89, 129);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(76, 20);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Bonuses:";
-            // 
-            // chart1
-            // 
-            chartArea31.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea31);
-            this.chart1.Location = new System.Drawing.Point(439, 0);
-            this.chart1.Name = "chart1";
-            series31.ChartArea = "ChartArea1";
-            series31.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series31.Name = "Series1";
-            this.chart1.Series.Add(series31);
-            this.chart1.Size = new System.Drawing.Size(553, 342);
-            this.chart1.TabIndex = 0;
-            this.chart1.Text = "chart1";
-            // 
-            // chart2
-            // 
-            chartArea32.Name = "ChartArea1";
-            this.chart2.ChartAreas.Add(chartArea32);
-            legend8.Name = "Legend1";
-            this.chart2.Legends.Add(legend8);
-            this.chart2.Location = new System.Drawing.Point(439, 348);
-            this.chart2.Name = "chart2";
-            series32.ChartArea = "ChartArea1";
-            series32.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-            series32.Legend = "Legend1";
-            series32.Name = "Series1";
-            this.chart2.Series.Add(series32);
-            this.chart2.Size = new System.Drawing.Size(553, 347);
-            this.chart2.TabIndex = 1;
-            this.chart2.Text = "chart2";
-            // 
-            // housingTot
-            // 
-            this.housingTot.Location = new System.Drawing.Point(169, 88);
-            this.housingTot.Name = "housingTot";
-            this.housingTot.ReadOnly = true;
-            this.housingTot.Size = new System.Drawing.Size(201, 23);
-            this.housingTot.TabIndex = 2;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(91, 88);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(72, 20);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Housing:";
-            // 
-            // utilities
-            // 
-            this.utilities.AutoSize = true;
-            this.utilities.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.utilities.Location = new System.Drawing.Point(99, 130);
-            this.utilities.Name = "utilities";
-            this.utilities.Size = new System.Drawing.Size(64, 20);
-            this.utilities.TabIndex = 5;
-            this.utilities.Text = "Utilities:";
-            // 
-            // utilitiesTot
-            // 
-            this.utilitiesTot.Location = new System.Drawing.Point(169, 130);
-            this.utilitiesTot.Name = "utilitiesTot";
-            this.utilitiesTot.ReadOnly = true;
-            this.utilitiesTot.Size = new System.Drawing.Size(201, 23);
-            this.utilitiesTot.TabIndex = 4;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(81, 172);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(82, 20);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Groceries:";
-            // 
-            // groceriesTot
-            // 
-            this.groceriesTot.Location = new System.Drawing.Point(169, 172);
-            this.groceriesTot.Name = "groceriesTot";
-            this.groceriesTot.ReadOnly = true;
-            this.groceriesTot.Size = new System.Drawing.Size(201, 23);
-            this.groceriesTot.TabIndex = 6;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(47, 213);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(116, 20);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Transportation:";
-            // 
-            // transTot
-            // 
-            this.transTot.Location = new System.Drawing.Point(169, 213);
-            this.transTot.Name = "transTot";
-            this.transTot.ReadOnly = true;
-            this.transTot.Size = new System.Drawing.Size(201, 23);
-            this.transTot.TabIndex = 8;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(125, 29);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(206, 26);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Monthly Expenses";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(74, 252);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(89, 20);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "Eating Out:";
-            // 
-            // eatOutTot
-            // 
-            this.eatOutTot.Location = new System.Drawing.Point(169, 252);
-            this.eatOutTot.Name = "eatOutTot";
-            this.eatOutTot.ReadOnly = true;
-            this.eatOutTot.Size = new System.Drawing.Size(201, 23);
-            this.eatOutTot.TabIndex = 11;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(88, 294);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(75, 20);
-            this.label8.TabIndex = 14;
-            this.label8.Text = "Personal:";
-            // 
-            // personalTot
-            // 
-            this.personalTot.Location = new System.Drawing.Point(169, 291);
-            this.personalTot.Name = "personalTot";
-            this.personalTot.ReadOnly = true;
-            this.personalTot.Size = new System.Drawing.Size(201, 23);
-            this.personalTot.TabIndex = 13;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(49, 331);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(114, 20);
-            this.label9.TabIndex = 16;
-            this.label9.Text = "Entertainment:";
-            // 
-            // entertainTot
-            // 
-            this.entertainTot.Location = new System.Drawing.Point(169, 331);
-            this.entertainTot.Name = "entertainTot";
-            this.entertainTot.ReadOnly = true;
-            this.entertainTot.Size = new System.Drawing.Size(201, 23);
-            this.entertainTot.TabIndex = 15;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(40, 371);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(122, 20);
-            this.label10.TabIndex = 18;
-            this.label10.Text = "Debt Payments:";
-            // 
-            // debtTot
-            // 
-            this.debtTot.Location = new System.Drawing.Point(169, 371);
-            this.debtTot.Name = "debtTot";
-            this.debtTot.ReadOnly = true;
-            this.debtTot.Size = new System.Drawing.Size(201, 23);
-            this.debtTot.TabIndex = 17;
+            this.childTot.Location = new System.Drawing.Point(169, 450);
+            this.childTot.Name = "childTot";
+            this.childTot.ReadOnly = true;
+            this.childTot.Size = new System.Drawing.Size(201, 23);
+            this.childTot.TabIndex = 21;
             // 
             // label11
             // 
@@ -698,23 +647,276 @@
             this.savingsExpTot.Size = new System.Drawing.Size(201, 23);
             this.savingsExpTot.TabIndex = 19;
             // 
-            // label12
+            // label10
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(114, 450);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(48, 20);
-            this.label12.TabIndex = 22;
-            this.label12.Text = "Child:";
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(40, 371);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(122, 20);
+            this.label10.TabIndex = 18;
+            this.label10.Text = "Debt Payments:";
             // 
-            // childTot
+            // debtTot
             // 
-            this.childTot.Location = new System.Drawing.Point(169, 450);
-            this.childTot.Name = "childTot";
-            this.childTot.ReadOnly = true;
-            this.childTot.Size = new System.Drawing.Size(201, 23);
-            this.childTot.TabIndex = 21;
+            this.debtTot.Location = new System.Drawing.Point(169, 371);
+            this.debtTot.Name = "debtTot";
+            this.debtTot.ReadOnly = true;
+            this.debtTot.Size = new System.Drawing.Size(201, 23);
+            this.debtTot.TabIndex = 17;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(49, 331);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(114, 20);
+            this.label9.TabIndex = 16;
+            this.label9.Text = "Entertainment:";
+            // 
+            // entertainTot
+            // 
+            this.entertainTot.Location = new System.Drawing.Point(169, 331);
+            this.entertainTot.Name = "entertainTot";
+            this.entertainTot.ReadOnly = true;
+            this.entertainTot.Size = new System.Drawing.Size(201, 23);
+            this.entertainTot.TabIndex = 15;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(88, 294);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(75, 20);
+            this.label8.TabIndex = 14;
+            this.label8.Text = "Personal:";
+            // 
+            // personalTot
+            // 
+            this.personalTot.Location = new System.Drawing.Point(169, 291);
+            this.personalTot.Name = "personalTot";
+            this.personalTot.ReadOnly = true;
+            this.personalTot.Size = new System.Drawing.Size(201, 23);
+            this.personalTot.TabIndex = 13;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(74, 252);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(89, 20);
+            this.label7.TabIndex = 12;
+            this.label7.Text = "Eating Out:";
+            // 
+            // eatOutTot
+            // 
+            this.eatOutTot.Location = new System.Drawing.Point(169, 252);
+            this.eatOutTot.Name = "eatOutTot";
+            this.eatOutTot.ReadOnly = true;
+            this.eatOutTot.Size = new System.Drawing.Size(201, 23);
+            this.eatOutTot.TabIndex = 11;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(125, 29);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(206, 26);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Monthly Expenses";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(47, 213);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(116, 20);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Transportation:";
+            // 
+            // transTot
+            // 
+            this.transTot.Location = new System.Drawing.Point(169, 213);
+            this.transTot.Name = "transTot";
+            this.transTot.ReadOnly = true;
+            this.transTot.Size = new System.Drawing.Size(201, 23);
+            this.transTot.TabIndex = 8;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(81, 172);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(82, 20);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Groceries:";
+            // 
+            // groceriesTot
+            // 
+            this.groceriesTot.Location = new System.Drawing.Point(169, 172);
+            this.groceriesTot.Name = "groceriesTot";
+            this.groceriesTot.ReadOnly = true;
+            this.groceriesTot.Size = new System.Drawing.Size(201, 23);
+            this.groceriesTot.TabIndex = 6;
+            // 
+            // utilities
+            // 
+            this.utilities.AutoSize = true;
+            this.utilities.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.utilities.Location = new System.Drawing.Point(99, 130);
+            this.utilities.Name = "utilities";
+            this.utilities.Size = new System.Drawing.Size(64, 20);
+            this.utilities.TabIndex = 5;
+            this.utilities.Text = "Utilities:";
+            // 
+            // utilitiesTot
+            // 
+            this.utilitiesTot.Location = new System.Drawing.Point(169, 130);
+            this.utilitiesTot.Name = "utilitiesTot";
+            this.utilitiesTot.ReadOnly = true;
+            this.utilitiesTot.Size = new System.Drawing.Size(201, 23);
+            this.utilitiesTot.TabIndex = 4;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(91, 88);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(72, 20);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Housing:";
+            // 
+            // housingTot
+            // 
+            this.housingTot.Location = new System.Drawing.Point(169, 88);
+            this.housingTot.Name = "housingTot";
+            this.housingTot.ReadOnly = true;
+            this.housingTot.Size = new System.Drawing.Size(201, 23);
+            this.housingTot.TabIndex = 2;
+            // 
+            // chart2
+            // 
+            chartArea6.Name = "ChartArea1";
+            this.chart2.ChartAreas.Add(chartArea6);
+            legend2.Name = "Legend1";
+            this.chart2.Legends.Add(legend2);
+            this.chart2.Location = new System.Drawing.Point(439, 348);
+            this.chart2.Name = "chart2";
+            series6.ChartArea = "ChartArea1";
+            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series6.Legend = "Legend1";
+            series6.Name = "Series1";
+            this.chart2.Series.Add(series6);
+            this.chart2.Size = new System.Drawing.Size(553, 347);
+            this.chart2.TabIndex = 1;
+            this.chart2.Text = "chart2";
+            // 
+            // chart1
+            // 
+            chartArea7.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea7);
+            this.chart1.Location = new System.Drawing.Point(439, 0);
+            this.chart1.Name = "chart1";
+            series7.ChartArea = "ChartArea1";
+            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series7.Name = "Series1";
+            this.chart1.Series.Add(series7);
+            this.chart1.Size = new System.Drawing.Size(553, 342);
+            this.chart1.TabIndex = 0;
+            this.chart1.Text = "chart1";
+            // 
+            // savingsTab
+            // 
+            this.savingsTab.Controls.Add(this.label23);
+            this.savingsTab.Controls.Add(this.savOther);
+            this.savingsTab.Controls.Add(this.label22);
+            this.savingsTab.Controls.Add(this.savEmFund);
+            this.savingsTab.Controls.Add(this.label21);
+            this.savingsTab.Controls.Add(this.savRetire);
+            this.savingsTab.Controls.Add(this.chart3);
+            this.savingsTab.Controls.Add(this.label13);
+            this.savingsTab.Controls.Add(this.label14);
+            this.savingsTab.Controls.Add(this.savNetIncome);
+            this.savingsTab.Location = new System.Drawing.Point(4, 25);
+            this.savingsTab.Name = "savingsTab";
+            this.savingsTab.Size = new System.Drawing.Size(992, 695);
+            this.savingsTab.TabIndex = 3;
+            this.savingsTab.Text = "Savings";
+            this.savingsTab.UseVisualStyleBackColor = true;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(118, 206);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(53, 20);
+            this.label23.TabIndex = 20;
+            this.label23.Text = "Other:";
+            // 
+            // savOther
+            // 
+            this.savOther.Location = new System.Drawing.Point(177, 206);
+            this.savOther.Name = "savOther";
+            this.savOther.ReadOnly = true;
+            this.savOther.Size = new System.Drawing.Size(201, 23);
+            this.savOther.TabIndex = 19;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(37, 163);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(134, 20);
+            this.label22.TabIndex = 18;
+            this.label22.Text = "Emergency Fund:";
+            // 
+            // savEmFund
+            // 
+            this.savEmFund.Location = new System.Drawing.Point(177, 163);
+            this.savEmFund.Name = "savEmFund";
+            this.savEmFund.ReadOnly = true;
+            this.savEmFund.Size = new System.Drawing.Size(201, 23);
+            this.savEmFund.TabIndex = 17;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(79, 123);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(92, 20);
+            this.label21.TabIndex = 16;
+            this.label21.Text = "Retirement:";
+            // 
+            // savRetire
+            // 
+            this.savRetire.Location = new System.Drawing.Point(177, 123);
+            this.savRetire.Name = "savRetire";
+            this.savRetire.ReadOnly = true;
+            this.savRetire.Size = new System.Drawing.Size(201, 23);
+            this.savRetire.TabIndex = 15;
+            // 
+            // chart3
+            // 
+            chartArea8.Name = "ChartArea1";
+            this.chart3.ChartAreas.Add(chartArea8);
+            this.chart3.Location = new System.Drawing.Point(476, 3);
+            this.chart3.Name = "chart3";
+            series8.ChartArea = "ChartArea1";
+            series8.Name = "Series1";
+            this.chart3.Series.Add(series8);
+            this.chart3.Size = new System.Drawing.Size(513, 379);
+            this.chart3.TabIndex = 14;
+            this.chart3.Text = "chart3";
             // 
             // label13
             // 
@@ -744,216 +946,6 @@
             this.savNetIncome.Size = new System.Drawing.Size(201, 23);
             this.savNetIncome.TabIndex = 11;
             // 
-            // miscIncome
-            // 
-            this.miscIncome.Location = new System.Drawing.Point(171, 333);
-            this.miscIncome.Name = "miscIncome";
-            this.miscIncome.ReadOnly = true;
-            this.miscIncome.Size = new System.Drawing.Size(194, 23);
-            this.miscIncome.TabIndex = 6;
-            this.miscIncome.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(120, 333);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(45, 20);
-            this.label15.TabIndex = 5;
-            this.label15.Text = "Misc:";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(132, 30);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(180, 26);
-            this.label16.TabIndex = 11;
-            this.label16.Text = "Monthly Income";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(171, 171);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(194, 23);
-            this.textBox1.TabIndex = 13;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(89, 171);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(75, 20);
-            this.label17.TabIndex = 12;
-            this.label17.Text = "Disability:";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(171, 212);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(194, 23);
-            this.textBox2.TabIndex = 15;
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(48, 212);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(117, 20);
-            this.label18.TabIndex = 14;
-            this.label18.Text = "Social Security:";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(171, 253);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(194, 23);
-            this.textBox3.TabIndex = 17;
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(64, 253);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(100, 20);
-            this.label19.TabIndex = 16;
-            this.label19.Text = "Investments:";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(171, 294);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(194, 23);
-            this.textBox4.TabIndex = 19;
-            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(71, 294);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(93, 20);
-            this.label20.TabIndex = 18;
-            this.label20.Text = "Inheritance:";
-            // 
-            // chart3
-            // 
-            chartArea25.Name = "ChartArea1";
-            this.chart3.ChartAreas.Add(chartArea25);
-            this.chart3.Location = new System.Drawing.Point(476, 3);
-            this.chart3.Name = "chart3";
-            series25.ChartArea = "ChartArea1";
-            series25.Name = "Series1";
-            this.chart3.Series.Add(series25);
-            this.chart3.Size = new System.Drawing.Size(513, 379);
-            this.chart3.TabIndex = 14;
-            this.chart3.Text = "chart3";
-            // 
-            // addToolStripMenuItem
-            // 
-            this.addToolStripMenuItem.Name = "addToolStripMenuItem";
-            this.addToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.addToolStripMenuItem.Text = "Add";
-            this.addToolStripMenuItem.Click += new System.EventHandler(this.addToolStripMenuItem_Click);
-            // 
-            // editToolStripMenuItem
-            // 
-            this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.editToolStripMenuItem.Text = "Edit";
-            // 
-            // addToolStripMenuItem1
-            // 
-            this.addToolStripMenuItem1.Name = "addToolStripMenuItem1";
-            this.addToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
-            this.addToolStripMenuItem1.Text = "Add";
-            this.addToolStripMenuItem1.Click += new System.EventHandler(this.addToolStripMenuItem1_Click);
-            // 
-            // editToolStripMenuItem1
-            // 
-            this.editToolStripMenuItem1.Name = "editToolStripMenuItem1";
-            this.editToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
-            this.editToolStripMenuItem1.Text = "Edit";
-            // 
-            // addToolStripMenuItem2
-            // 
-            this.addToolStripMenuItem2.Name = "addToolStripMenuItem2";
-            this.addToolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
-            this.addToolStripMenuItem2.Text = "Add";
-            // 
-            // editToolStripMenuItem2
-            // 
-            this.editToolStripMenuItem2.Name = "editToolStripMenuItem2";
-            this.editToolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
-            this.editToolStripMenuItem2.Text = "Edit";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(79, 123);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(92, 20);
-            this.label21.TabIndex = 16;
-            this.label21.Text = "Retirement:";
-            // 
-            // savRetire
-            // 
-            this.savRetire.Location = new System.Drawing.Point(177, 123);
-            this.savRetire.Name = "savRetire";
-            this.savRetire.ReadOnly = true;
-            this.savRetire.Size = new System.Drawing.Size(201, 23);
-            this.savRetire.TabIndex = 15;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(37, 163);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(134, 20);
-            this.label22.TabIndex = 18;
-            this.label22.Text = "Emergency Fund:";
-            // 
-            // savEmFund
-            // 
-            this.savEmFund.Location = new System.Drawing.Point(177, 163);
-            this.savEmFund.Name = "savEmFund";
-            this.savEmFund.ReadOnly = true;
-            this.savEmFund.Size = new System.Drawing.Size(201, 23);
-            this.savEmFund.TabIndex = 17;
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(118, 206);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(53, 20);
-            this.label23.TabIndex = 20;
-            this.label23.Text = "Other:";
-            // 
-            // savOther
-            // 
-            this.savOther.Location = new System.Drawing.Point(177, 206);
-            this.savOther.Name = "savOther";
-            this.savOther.ReadOnly = true;
-            this.savOther.Size = new System.Drawing.Size(201, 23);
-            this.savOther.TabIndex = 19;
-            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -963,6 +955,7 @@
             this.Controls.Add(this.homeTabs);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "Home";
@@ -982,10 +975,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.incomeTabChart)).EndInit();
             this.expenseTab.ResumeLayout(false);
             this.expenseTab.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.savingsTab.ResumeLayout(false);
             this.savingsTab.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -1001,7 +994,6 @@
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem managementToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem logoutToolStripMenuItem;
         private System.Windows.Forms.TabControl homeTabs;
         private System.Windows.Forms.TabPage overview;
         private System.Windows.Forms.DataVisualization.Charting.Chart expenses;

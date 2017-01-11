@@ -1,0 +1,14 @@
+U:\My Documents\Dev Projects\C#\Budget Buddy\Budget Buddy\bin\Debug\Budget Buddy.exe.config
+U:\My Documents\Dev Projects\C#\Budget Buddy\Budget Buddy\bin\Debug\Budget Buddy.exe
+U:\My Documents\Dev Projects\C#\Budget Buddy\Budget Buddy\bin\Debug\Budget Buddy.pdb
+U:\My Documents\Dev Projects\C#\Budget Buddy\Budget Buddy\obj\Debug\Budget Buddy.csprojResolveAssemblyReference.cache
+U:\My Documents\Dev Projects\C#\Budget Buddy\Budget Buddy\obj\Debug\Budget_Buddy.Home.resources
+U:\My Documents\Dev Projects\C#\Budget Buddy\Budget Buddy\obj\Debug\Budget_Buddy.Login.resources
+U:\My Documents\Dev Projects\C#\Budget Buddy\Budget Buddy\obj\Debug\Budget_Buddy.Properties.Resources.resources
+U:\My Documents\Dev Projects\C#\Budget Buddy\Budget Buddy\obj\Debug\Budget Buddy.csproj.GenerateResource.Cache
+U:\My Documents\Dev Projects\C#\Budget Buddy\Budget Buddy\obj\Debug\Budget Buddy.exe
+U:\My Documents\Dev Projects\C#\Budget Buddy\Budget Buddy\obj\Debug\Budget Buddy.pdb
+U:\My Documents\Dev Projects\C#\Budget Buddy\Budget Buddy\obj\Debug\Budget_Buddy.ExpenseAdd.resources
+U:\My Documents\Dev Projects\C#\Budget Buddy\Budget Buddy\obj\Debug\Budget_Buddy.IncomeAdd.resources
+U:\My Documents\Dev Projects\C#\Budget Buddy\Budget Buddy\obj\Debug\Budget_Buddy.SavingsAdd.resources
+U:\My Documents\Dev Projects\C#\Budget Buddy\Budget Buddy\obj\Debug\Budget_Buddy.NewUser.resources

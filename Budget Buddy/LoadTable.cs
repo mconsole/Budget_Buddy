@@ -24,24 +24,14 @@ namespace Budget_Buddy
         }
 
         private void LoadTable_Load(object sender, EventArgs e)
-        {
-            OleDbConnection connect = new OleDbConnection();
-            connect.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=U:\My Documents\BudgetBuddy.accdb;
-            Persist Security Info=False;";
+        {          
+            string strSql = "SELECT table_name FROM budget_tables";
+            DbConnectService dbcs = new DbConnectService();                
+            DataTable dt = dbcs.retrieveDbData(strSql);
             
-            try
-            {
-                connect.Open();
-                MessageBox.Show("Connection is now open");
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-            finally
-            {
-                connect.Close();
-            }            
+            foreach (DataRow item in dt.Rows) {
+                selectBudgetDrop.Items.Add(item.Field<string>("table_name"));
+            }                   
         }
     }
 }

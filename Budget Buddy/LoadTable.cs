@@ -63,17 +63,24 @@ namespace Budget_Buddy
 
         private void loadTableDel_Click(object sender, EventArgs e)
         {
-            DialogResult dr = MessageBox.Show("Are you sure you want to delete this budget?", "Delete Budget", MessageBoxButtons.OKCancel);
-
-            if (dr == DialogResult.OK)
+            if (selectBudgetDrop.Text != "")
             {
-                string budgetNm = selectBudgetDrop.Text;                
+                DialogResult dr = MessageBox.Show("Are you sure you want to delete this budget?", "Delete Budget", MessageBoxButtons.OKCancel);
 
-                DbConnectService dbcs = new DbConnectService();
-                dbcs.deleteTable(budgetNm);
+                if (dr == DialogResult.OK)
+                {
+                    string budgetNm = selectBudgetDrop.Text;
 
-                popTableList();
+                    DbConnectService dbcs = new DbConnectService();
+                    dbcs.deleteTable(budgetNm);
+
+                    popTableList();
+                }
             }
+            else
+            {
+                MessageBox.Show("Please select a budget to delete");
+            }            
         }
     }
 }

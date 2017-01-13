@@ -73,6 +73,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Controls.Ribbon" />
     <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -110,6 +112,13 @@
     <Compile Include="LoadTable.Designer.cs">
       <DependentUpon>LoadTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="NewTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewTable.Designer.cs">
+      <DependentUpon>NewTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopulateFroms.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SavingsAdd.cs">
@@ -129,6 +138,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LoadTable.resx">
       <DependentUpon>LoadTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewTable.resx">
+      <DependentUpon>NewTable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -11,3 +11,4 @@ U:\My Documents\Dev Projects\C#\Budget Buddy\Budget Buddy\obj\Debug\Budget_Buddy
 U:\My Documents\Dev Projects\C#\Budget Buddy\Budget Buddy\obj\Debug\Budget_Buddy.IncomeAdd.resources
 U:\My Documents\Dev Projects\C#\Budget Buddy\Budget Buddy\obj\Debug\Budget_Buddy.SavingsAdd.resources
 U:\My Documents\Dev Projects\C#\Budget Buddy\Budget Buddy\obj\Debug\Budget_Buddy.LoadTable.resources
+U:\My Documents\Dev Projects\C#\Budget Buddy\Budget Buddy\obj\Debug\Budget_Buddy.NewTable.resources

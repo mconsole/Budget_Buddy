@@ -33,26 +33,28 @@
             this.selectNew = new System.Windows.Forms.Button();
             this.selectBudgetDrop = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.loadTableDel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // selectSubmit
             // 
             this.selectSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.selectSubmit.Location = new System.Drawing.Point(44, 141);
+            this.selectSubmit.Location = new System.Drawing.Point(50, 140);
             this.selectSubmit.Name = "selectSubmit";
             this.selectSubmit.Size = new System.Drawing.Size(90, 25);
             this.selectSubmit.TabIndex = 1;
             this.selectSubmit.Text = "Ok";
             this.selectSubmit.UseVisualStyleBackColor = true;
+            this.selectSubmit.Click += new System.EventHandler(this.selectSubmit_Click);
             // 
             // selectNew
             // 
             this.selectNew.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.selectNew.Location = new System.Drawing.Point(242, 141);
+            this.selectNew.Location = new System.Drawing.Point(242, 140);
             this.selectNew.Name = "selectNew";
             this.selectNew.Size = new System.Drawing.Size(90, 25);
             this.selectNew.TabIndex = 2;
-            this.selectNew.Text = "New +";
+            this.selectNew.Text = "New";
             this.selectNew.UseVisualStyleBackColor = true;
             this.selectNew.Click += new System.EventHandler(this.selectNew_Click);
             // 
@@ -76,11 +78,23 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "Select A Budget:";
             // 
+            // loadTableDel
+            // 
+            this.loadTableDel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loadTableDel.Location = new System.Drawing.Point(146, 140);
+            this.loadTableDel.Name = "loadTableDel";
+            this.loadTableDel.Size = new System.Drawing.Size(90, 25);
+            this.loadTableDel.TabIndex = 5;
+            this.loadTableDel.Text = "Delete";
+            this.loadTableDel.UseVisualStyleBackColor = true;
+            this.loadTableDel.Click += new System.EventHandler(this.loadTableDel_Click);
+            // 
             // LoadTable
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(375, 195);
+            this.Controls.Add(this.loadTableDel);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.selectBudgetDrop);
             this.Controls.Add(this.selectNew);
@@ -102,5 +116,6 @@
         private System.Windows.Forms.Button selectNew;
         private System.Windows.Forms.ComboBox selectBudgetDrop;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button loadTableDel;
     }
 }

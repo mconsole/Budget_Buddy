@@ -167,7 +167,7 @@
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(92, 22);
             this.exitToolStripMenuItem.Text = "E&xit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -429,6 +429,7 @@
             this.textBox4.ReadOnly = true;
             this.textBox4.Size = new System.Drawing.Size(194, 23);
             this.textBox4.TabIndex = 19;
+            this.textBox4.Tag = "Inheritance";
             this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label20
@@ -448,6 +449,7 @@
             this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(194, 23);
             this.textBox3.TabIndex = 17;
+            this.textBox3.Tag = "Investments";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label19
@@ -467,6 +469,7 @@
             this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(194, 23);
             this.textBox2.TabIndex = 15;
+            this.textBox2.Tag = "Social Security";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label18
@@ -486,6 +489,7 @@
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(194, 23);
             this.textBox1.TabIndex = 13;
+            this.textBox1.Tag = "Disability";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label17
@@ -515,6 +519,7 @@
             this.miscIncome.ReadOnly = true;
             this.miscIncome.Size = new System.Drawing.Size(194, 23);
             this.miscIncome.TabIndex = 6;
+            this.miscIncome.Tag = "Misc";
             this.miscIncome.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label15
@@ -534,6 +539,7 @@
             this.bonuses.ReadOnly = true;
             this.bonuses.Size = new System.Drawing.Size(194, 23);
             this.bonuses.TabIndex = 4;
+            this.bonuses.Tag = "Bonus";
             this.bonuses.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label2
@@ -553,6 +559,7 @@
             this.avgSalary.ReadOnly = true;
             this.avgSalary.Size = new System.Drawing.Size(194, 23);
             this.avgSalary.TabIndex = 2;
+            this.avgSalary.Tag = "Salary";
             this.avgSalary.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label1
@@ -1000,16 +1007,13 @@
         private System.Windows.Forms.DataVisualization.Charting.Chart expenseTypes;
         private System.Windows.Forms.DataVisualization.Charting.Chart income;
         private System.Windows.Forms.DataVisualization.Charting.Chart savings;
-        private System.Windows.Forms.TabPage incomeTab;
         private System.Windows.Forms.TabPage expenseTab;
         private System.Windows.Forms.TabPage savingsTab;
         private System.Windows.Forms.ToolStripMenuItem incomeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem expensesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem savingsToolStripMenuItem;
         private System.Windows.Forms.DataVisualization.Charting.Chart incomeTabChart;
-        private System.Windows.Forms.TextBox avgSalary;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox bonuses;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label utilities;
         private System.Windows.Forms.TextBox utilitiesTot;
@@ -1038,15 +1042,10 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.TextBox savNetIncome;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox miscIncome;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart3;
         private System.Windows.Forms.ToolStripMenuItem addToolStripMenuItem;
@@ -1061,6 +1060,14 @@
         private System.Windows.Forms.TextBox savRetire;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.TextBox savOther;
+        public System.Windows.Forms.TabPage incomeTab;
+        public System.Windows.Forms.TextBox avgSalary;
+        public System.Windows.Forms.TextBox bonuses;
+        public System.Windows.Forms.TextBox miscIncome;
+        public System.Windows.Forms.TextBox textBox2;
+        public System.Windows.Forms.TextBox textBox1;
+        public System.Windows.Forms.TextBox textBox4;
+        public System.Windows.Forms.TextBox textBox3;
     }
 }
 

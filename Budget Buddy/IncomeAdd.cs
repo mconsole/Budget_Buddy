@@ -29,5 +29,17 @@ namespace Budget_Buddy
             newIncType.SelectedIndex = 0;
             newIncAmtUnit.SelectedIndex = 0;
         }
+
+        private void newIncAdd_Click(object sender, EventArgs e)
+        {
+            DbConnectService dbcs = new DbConnectService();
+            dbcs.submitData(Program.tableName, newIncName.Text, newIncType.Text, int.Parse(newIncAmt.Text), newIncAmtUnit.Text, 0, "Income");
+            this.Close();
+        }
+
+        private void IncomeAdd_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

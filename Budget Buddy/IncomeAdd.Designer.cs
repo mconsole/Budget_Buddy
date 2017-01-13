@@ -51,6 +51,7 @@
             this.newIncAdd.TabIndex = 2;
             this.newIncAdd.Text = "Add";
             this.newIncAdd.UseVisualStyleBackColor = true;
+            this.newIncAdd.Click += new System.EventHandler(this.newIncAdd_Click);
             // 
             // newIncClear
             // 
@@ -190,23 +191,24 @@
             this.Name = "IncomeAdd";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "New Income Item";
+            this.Load += new System.EventHandler(this.IncomeAdd_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Button newIncAdd;
-        private System.Windows.Forms.Button newIncClear;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox newIncName;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button newIncCancel;
-        private System.Windows.Forms.ComboBox newIncType;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox newIncAmt;
-        private System.Windows.Forms.ComboBox newIncAmtUnit;
         private System.Windows.Forms.Label label5;
+        public System.Windows.Forms.Button newIncAdd;
+        public System.Windows.Forms.Button newIncClear;
+        public System.Windows.Forms.TextBox newIncName;
+        public System.Windows.Forms.Button newIncCancel;
+        public System.Windows.Forms.ComboBox newIncType;
+        public System.Windows.Forms.TextBox newIncAmt;
+        public System.Windows.Forms.ComboBox newIncAmtUnit;
     }
 }

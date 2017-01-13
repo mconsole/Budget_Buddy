@@ -18,5 +18,18 @@ namespace Budget_Buddy
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new LoadTable());
         }
+
+        static string TableNm = "";
+        public static string tableName
+        {
+            get
+            {
+                return TableNm;
+            }
+            set
+            {
+                TableNm = value;
+            }
+        }
     }
 }

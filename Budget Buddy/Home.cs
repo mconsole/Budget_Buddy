@@ -57,5 +57,23 @@ namespace Budget_Buddy
             ExpenseAdd expenseAdd = new ExpenseAdd();
             expenseAdd.Show();
         }
+
+        private void incomeRefresh_Click(object sender, EventArgs e)
+        {
+            PopulateFroms pf = new PopulateFroms();
+            pf.fillControls(this, "Income");
+        }
+
+        private void expenseRefresh_Click(object sender, EventArgs e)
+        {
+            PopulateFroms pf = new PopulateFroms();
+            pf.fillControls(this, "Expense");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            PopulateFroms pf = new PopulateFroms();
+            pf.fillControls(this, "Savings");
+        }
     }
 }

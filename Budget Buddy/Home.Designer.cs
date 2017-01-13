@@ -125,6 +125,9 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.savNetIncome = new System.Windows.Forms.TextBox();
+            this.incomeRefresh = new System.Windows.Forms.Button();
+            this.expenseRefresh = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.homeTabs.SuspendLayout();
             this.overview.SuspendLayout();
@@ -398,6 +401,7 @@
             // 
             // incomeTab
             // 
+            this.incomeTab.Controls.Add(this.incomeRefresh);
             this.incomeTab.Controls.Add(this.textBox4);
             this.incomeTab.Controls.Add(this.label20);
             this.incomeTab.Controls.Add(this.textBox3);
@@ -588,6 +592,7 @@
             // 
             // expenseTab
             // 
+            this.expenseTab.Controls.Add(this.expenseRefresh);
             this.expenseTab.Controls.Add(this.label12);
             this.expenseTab.Controls.Add(this.childTot);
             this.expenseTab.Controls.Add(this.label11);
@@ -635,6 +640,7 @@
             this.childTot.ReadOnly = true;
             this.childTot.Size = new System.Drawing.Size(201, 23);
             this.childTot.TabIndex = 21;
+            this.childTot.Tag = "Expense";
             // 
             // label11
             // 
@@ -653,6 +659,7 @@
             this.savingsExpTot.ReadOnly = true;
             this.savingsExpTot.Size = new System.Drawing.Size(201, 23);
             this.savingsExpTot.TabIndex = 19;
+            this.savingsExpTot.Tag = "Expense";
             // 
             // label10
             // 
@@ -671,6 +678,7 @@
             this.debtTot.ReadOnly = true;
             this.debtTot.Size = new System.Drawing.Size(201, 23);
             this.debtTot.TabIndex = 17;
+            this.debtTot.Tag = "Expense";
             // 
             // label9
             // 
@@ -689,6 +697,7 @@
             this.entertainTot.ReadOnly = true;
             this.entertainTot.Size = new System.Drawing.Size(201, 23);
             this.entertainTot.TabIndex = 15;
+            this.entertainTot.Tag = "Expense";
             // 
             // label8
             // 
@@ -707,6 +716,7 @@
             this.personalTot.ReadOnly = true;
             this.personalTot.Size = new System.Drawing.Size(201, 23);
             this.personalTot.TabIndex = 13;
+            this.personalTot.Tag = "Expense";
             // 
             // label7
             // 
@@ -725,6 +735,7 @@
             this.eatOutTot.ReadOnly = true;
             this.eatOutTot.Size = new System.Drawing.Size(201, 23);
             this.eatOutTot.TabIndex = 11;
+            this.eatOutTot.Tag = "Expense";
             // 
             // label6
             // 
@@ -753,6 +764,7 @@
             this.transTot.ReadOnly = true;
             this.transTot.Size = new System.Drawing.Size(201, 23);
             this.transTot.TabIndex = 8;
+            this.transTot.Tag = "Expense";
             // 
             // label4
             // 
@@ -771,6 +783,7 @@
             this.groceriesTot.ReadOnly = true;
             this.groceriesTot.Size = new System.Drawing.Size(201, 23);
             this.groceriesTot.TabIndex = 6;
+            this.groceriesTot.Tag = "Expense";
             // 
             // utilities
             // 
@@ -789,6 +802,7 @@
             this.utilitiesTot.ReadOnly = true;
             this.utilitiesTot.Size = new System.Drawing.Size(201, 23);
             this.utilitiesTot.TabIndex = 4;
+            this.utilitiesTot.Tag = "Expense";
             // 
             // label3
             // 
@@ -807,6 +821,7 @@
             this.housingTot.ReadOnly = true;
             this.housingTot.Size = new System.Drawing.Size(201, 23);
             this.housingTot.TabIndex = 2;
+            this.housingTot.Tag = "Expense";
             // 
             // chart2
             // 
@@ -841,6 +856,7 @@
             // 
             // savingsTab
             // 
+            this.savingsTab.Controls.Add(this.button1);
             this.savingsTab.Controls.Add(this.label23);
             this.savingsTab.Controls.Add(this.savOther);
             this.savingsTab.Controls.Add(this.label22);
@@ -953,6 +969,36 @@
             this.savNetIncome.Size = new System.Drawing.Size(201, 23);
             this.savNetIncome.TabIndex = 11;
             // 
+            // incomeRefresh
+            // 
+            this.incomeRefresh.Location = new System.Drawing.Point(25, 25);
+            this.incomeRefresh.Name = "incomeRefresh";
+            this.incomeRefresh.Size = new System.Drawing.Size(75, 31);
+            this.incomeRefresh.TabIndex = 20;
+            this.incomeRefresh.Text = "Refresh";
+            this.incomeRefresh.UseVisualStyleBackColor = true;
+            this.incomeRefresh.Click += new System.EventHandler(this.incomeRefresh_Click);
+            // 
+            // expenseRefresh
+            // 
+            this.expenseRefresh.Location = new System.Drawing.Point(24, 24);
+            this.expenseRefresh.Name = "expenseRefresh";
+            this.expenseRefresh.Size = new System.Drawing.Size(75, 31);
+            this.expenseRefresh.TabIndex = 23;
+            this.expenseRefresh.Text = "Refresh";
+            this.expenseRefresh.UseVisualStyleBackColor = true;
+            this.expenseRefresh.Click += new System.EventHandler(this.expenseRefresh_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(28, 24);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 31);
+            this.button1.TabIndex = 24;
+            this.button1.Text = "Refresh";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -993,73 +1039,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem toolsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem managementToolStripMenuItem;
-        private System.Windows.Forms.TabControl homeTabs;
-        private System.Windows.Forms.TabPage overview;
-        private System.Windows.Forms.DataVisualization.Charting.Chart expenses;
-        private System.Windows.Forms.DataVisualization.Charting.Chart expenseTypes;
-        private System.Windows.Forms.DataVisualization.Charting.Chart income;
-        private System.Windows.Forms.DataVisualization.Charting.Chart savings;
-        private System.Windows.Forms.TabPage expenseTab;
-        private System.Windows.Forms.TabPage savingsTab;
-        private System.Windows.Forms.ToolStripMenuItem incomeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem expensesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem savingsToolStripMenuItem;
-        private System.Windows.Forms.DataVisualization.Charting.Chart incomeTabChart;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label utilities;
-        private System.Windows.Forms.TextBox utilitiesTot;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox housingTot;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart2;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox childTot;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox savingsExpTot;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox debtTot;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox entertainTot;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox personalTot;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox eatOutTot;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox transTot;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox groceriesTot;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox savNetIncome;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart3;
-        private System.Windows.Forms.ToolStripMenuItem addToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem addToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem addToolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem2;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.TextBox savEmFund;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.TextBox savRetire;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.TextBox savOther;
         public System.Windows.Forms.TabPage incomeTab;
         public System.Windows.Forms.TextBox avgSalary;
         public System.Windows.Forms.TextBox bonuses;
@@ -1068,6 +1047,75 @@
         public System.Windows.Forms.TextBox textBox1;
         public System.Windows.Forms.TextBox textBox4;
         public System.Windows.Forms.TextBox textBox3;
+        public System.Windows.Forms.TabControl homeTabs;
+        public System.Windows.Forms.MenuStrip menuStrip1;
+        public System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem toolsToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem managementToolStripMenuItem;
+        public System.Windows.Forms.TabPage overview;
+        public System.Windows.Forms.DataVisualization.Charting.Chart expenses;
+        public System.Windows.Forms.DataVisualization.Charting.Chart expenseTypes;
+        public System.Windows.Forms.DataVisualization.Charting.Chart income;
+        public System.Windows.Forms.DataVisualization.Charting.Chart savings;
+        public System.Windows.Forms.TabPage expenseTab;
+        public System.Windows.Forms.TabPage savingsTab;
+        public System.Windows.Forms.ToolStripMenuItem incomeToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem expensesToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem savingsToolStripMenuItem;
+        public System.Windows.Forms.DataVisualization.Charting.Chart incomeTabChart;
+        public System.Windows.Forms.Label label1;
+        public System.Windows.Forms.Label label2;
+        public System.Windows.Forms.Label utilities;
+        public System.Windows.Forms.TextBox utilitiesTot;
+        public System.Windows.Forms.Label label3;
+        public System.Windows.Forms.TextBox housingTot;
+        public System.Windows.Forms.DataVisualization.Charting.Chart chart2;
+        public System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        public System.Windows.Forms.Label label12;
+        public System.Windows.Forms.TextBox childTot;
+        public System.Windows.Forms.Label label11;
+        public System.Windows.Forms.TextBox savingsExpTot;
+        public System.Windows.Forms.Label label10;
+        public System.Windows.Forms.TextBox debtTot;
+        public System.Windows.Forms.Label label9;
+        public System.Windows.Forms.TextBox entertainTot;
+        public System.Windows.Forms.Label label8;
+        public System.Windows.Forms.TextBox personalTot;
+        public System.Windows.Forms.Label label7;
+        public System.Windows.Forms.TextBox eatOutTot;
+        public System.Windows.Forms.Label label6;
+        public System.Windows.Forms.Label label5;
+        public System.Windows.Forms.TextBox transTot;
+        public System.Windows.Forms.Label label4;
+        public System.Windows.Forms.TextBox groceriesTot;
+        public System.Windows.Forms.Label label13;
+        public System.Windows.Forms.Label label14;
+        public System.Windows.Forms.TextBox savNetIncome;
+        public System.Windows.Forms.Label label16;
+        public System.Windows.Forms.Label label15;
+        public System.Windows.Forms.Label label18;
+        public System.Windows.Forms.Label label17;
+        public System.Windows.Forms.Label label20;
+        public System.Windows.Forms.Label label19;
+        public System.Windows.Forms.DataVisualization.Charting.Chart chart3;
+        public System.Windows.Forms.ToolStripMenuItem addToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem addToolStripMenuItem1;
+        public System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem1;
+        public System.Windows.Forms.ToolStripMenuItem addToolStripMenuItem2;
+        public System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem2;
+        public System.Windows.Forms.Label label22;
+        public System.Windows.Forms.TextBox savEmFund;
+        public System.Windows.Forms.Label label21;
+        public System.Windows.Forms.TextBox savRetire;
+        public System.Windows.Forms.Label label23;
+        public System.Windows.Forms.TextBox savOther;
+        public System.Windows.Forms.Button incomeRefresh;
+        public System.Windows.Forms.Button expenseRefresh;
+        public System.Windows.Forms.Button button1;
     }
 }
 

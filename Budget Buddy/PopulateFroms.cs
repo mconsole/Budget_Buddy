@@ -33,45 +33,43 @@ namespace Budget_Buddy
             ja[2] = new string[3] { "Income", "Expense", "Savings" };
 
             string[] amountTypes = new string[3] { "Income", "Expense", "Savings" };
-
-            foreach (Array ar in ja)
+            
+            for (var i = 0; i < amountTypes.Length; i++)
             {
-                for (var i = 0; i < amountTypes.Length; i++)
+                foreach (string str in ja[i])
                 {
-                    foreach (string str in ja[i])
-                    {
-                        sum = getValues(str, amountTypes[i], table);
+                    sum = getValues(str, amountTypes[i], table);
 
-                        if (sum.Rows.Count > 0)
+                    if (sum.Rows.Count > 0)
+                    {
+                        foreach (Control con in home.homeTabs.TabPages)
                         {
-                            foreach (Control con in home.homeTabs.TabPages)
+                            foreach (Control con1 in con.Controls)
                             {
-                                foreach (Control con1 in con.Controls)
+                                if (sum.Rows[0][0] != null && sum.Rows[0][0].ToString() != "")
                                 {
-                                    if (sum.Rows[0][0] != null && sum.Rows[0][0].ToString() != "")
+                                    try
                                     {
-                                        try
+                                        if (con1.Tag != null)
                                         {
-                                            if (con1.Tag != null)
+                                            if (con1.Tag.ToString() == str)
                                             {
-                                                if (con1.Tag.ToString() == str)
-                                                {
-                                                    con1.Text = sum.Rows[0][0].ToString();
-                                                }
+                                                con1.Text = sum.Rows[0][0].ToString();
                                             }
                                         }
-                                        catch (Exception ex)
-                                        {
-                                            MessageBox.Show(ex.Message);
-                                        }
+                                    }
+                                    catch (Exception ex)
+                                    {
+                                        MessageBox.Show(ex.Message);
                                     }
                                 }
-
                             }
+
                         }
                     }
                 }
             }
+            
             e.Owner = home;
             e.Hide();
             home.Show();           

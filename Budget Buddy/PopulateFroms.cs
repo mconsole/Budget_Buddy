@@ -24,48 +24,57 @@ namespace Budget_Buddy
             DataTable sum = new DataTable();
             Home home = new Home();
             IncomeAdd ia = new IncomeAdd();
+            ExpenseAdd ea = new ExpenseAdd();
+            SavingsAdd sa = new SavingsAdd();
 
-            foreach (string item in ia.newIncType.Items)
+            string[][] ja = new string[3][];            
+            ja[0] = new string[7] {"Salary", "Bonus", "Disability", "Social Security", "Investments", "Inheritance", "Misc" };
+            ja[1] = new string[10] {"Housing", "Utilities", "Groceries", "Transportation", "Eating Out", "Personal", "Entertainment", "Debt Payments", "Savings", "Child" };
+            ja[2] = new string[3] { "Income", "Expense", "Savings" };
+
+            string[] amountTypes = new string[3] { "Income", "Expense", "Savings" };
+
+            foreach (Array ar in ja)
             {
-                string[] amountTypes = new string[3] { "Income", "Expense", "Savings" };
-
-                foreach (string type in amountTypes)
+                for (var i = 0; i < amountTypes.Length; i++)
                 {
-                    sum = getValues(item, type, table);
-
-                    if (sum.Rows.Count > 0)
+                    foreach (string str in ja[i])
                     {
-                        foreach (Control con in home.homeTabs.TabPages)
+                        sum = getValues(str, amountTypes[i], table);
+
+                        if (sum.Rows.Count > 0)
                         {
-                            foreach (Control con1 in con.Controls)
+                            foreach (Control con in home.homeTabs.TabPages)
                             {
-                                if (sum.Rows[0][0] != null && sum.Rows[0][0].ToString() != "")
+                                foreach (Control con1 in con.Controls)
                                 {
-                                    try
+                                    if (sum.Rows[0][0] != null && sum.Rows[0][0].ToString() != "")
                                     {
-                                        if (con1.Tag != null)
+                                        try
                                         {
-                                            if (con1.Tag.ToString() == item)
+                                            if (con1.Tag != null)
                                             {
-                                                con1.Text = sum.Rows[0][0].ToString();
+                                                if (con1.Tag.ToString() == str)
+                                                {
+                                                    con1.Text = sum.Rows[0][0].ToString();
+                                                }
                                             }
                                         }
-                                    }
-                                    catch (Exception ex)
-                                    {
-                                        MessageBox.Show(ex.Message);
+                                        catch (Exception ex)
+                                        {
+                                            MessageBox.Show(ex.Message);
+                                        }
                                     }
                                 }
-                            }
 
+                            }
                         }
                     }
-                }                
+                }
             }
-
             e.Owner = home;
             e.Hide();
-            home.Show();
+            home.Show();           
         }
 
         public void refreshControls(Home home)

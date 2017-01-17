@@ -74,6 +74,7 @@
             this.income = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.savings = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.incomeTab = new System.Windows.Forms.TabPage();
+            this.incomeRefresh = new System.Windows.Forms.Button();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -91,6 +92,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.incomeTabChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.expenseTab = new System.Windows.Forms.TabPage();
+            this.expenseRefresh = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
             this.childTot = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
@@ -115,6 +117,7 @@
             this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.savingsTab = new System.Windows.Forms.TabPage();
+            this.button1 = new System.Windows.Forms.Button();
             this.label23 = new System.Windows.Forms.Label();
             this.savOther = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
@@ -125,9 +128,6 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.savNetIncome = new System.Windows.Forms.TextBox();
-            this.incomeRefresh = new System.Windows.Forms.Button();
-            this.expenseRefresh = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.homeTabs.SuspendLayout();
             this.overview.SuspendLayout();
@@ -426,6 +426,16 @@
             this.incomeTab.Text = "Income";
             this.incomeTab.UseVisualStyleBackColor = true;
             // 
+            // incomeRefresh
+            // 
+            this.incomeRefresh.Location = new System.Drawing.Point(25, 25);
+            this.incomeRefresh.Name = "incomeRefresh";
+            this.incomeRefresh.Size = new System.Drawing.Size(75, 31);
+            this.incomeRefresh.TabIndex = 20;
+            this.incomeRefresh.Text = "Refresh";
+            this.incomeRefresh.UseVisualStyleBackColor = true;
+            this.incomeRefresh.Click += new System.EventHandler(this.incomeRefresh_Click);
+            // 
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(171, 294);
@@ -622,6 +632,16 @@
             this.expenseTab.TabIndex = 2;
             this.expenseTab.Text = "Expenses";
             this.expenseTab.UseVisualStyleBackColor = true;
+            // 
+            // expenseRefresh
+            // 
+            this.expenseRefresh.Location = new System.Drawing.Point(24, 24);
+            this.expenseRefresh.Name = "expenseRefresh";
+            this.expenseRefresh.Size = new System.Drawing.Size(75, 31);
+            this.expenseRefresh.TabIndex = 23;
+            this.expenseRefresh.Text = "Refresh";
+            this.expenseRefresh.UseVisualStyleBackColor = true;
+            this.expenseRefresh.Click += new System.EventHandler(this.expenseRefresh_Click);
             // 
             // label12
             // 
@@ -874,6 +894,16 @@
             this.savingsTab.Text = "Savings";
             this.savingsTab.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(28, 24);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 31);
+            this.button1.TabIndex = 24;
+            this.button1.Text = "Refresh";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // label23
             // 
             this.label23.AutoSize = true;
@@ -891,6 +921,7 @@
             this.savOther.ReadOnly = true;
             this.savOther.Size = new System.Drawing.Size(201, 23);
             this.savOther.TabIndex = 19;
+            this.savOther.Tag = "Other";
             // 
             // label22
             // 
@@ -909,6 +940,7 @@
             this.savEmFund.ReadOnly = true;
             this.savEmFund.Size = new System.Drawing.Size(201, 23);
             this.savEmFund.TabIndex = 17;
+            this.savEmFund.Tag = "Emergency Fund";
             // 
             // label21
             // 
@@ -927,6 +959,7 @@
             this.savRetire.ReadOnly = true;
             this.savRetire.Size = new System.Drawing.Size(201, 23);
             this.savRetire.TabIndex = 15;
+            this.savRetire.Tag = "Retirement";
             // 
             // chart3
             // 
@@ -968,36 +1001,7 @@
             this.savNetIncome.ReadOnly = true;
             this.savNetIncome.Size = new System.Drawing.Size(201, 23);
             this.savNetIncome.TabIndex = 11;
-            // 
-            // incomeRefresh
-            // 
-            this.incomeRefresh.Location = new System.Drawing.Point(25, 25);
-            this.incomeRefresh.Name = "incomeRefresh";
-            this.incomeRefresh.Size = new System.Drawing.Size(75, 31);
-            this.incomeRefresh.TabIndex = 20;
-            this.incomeRefresh.Text = "Refresh";
-            this.incomeRefresh.UseVisualStyleBackColor = true;
-            this.incomeRefresh.Click += new System.EventHandler(this.incomeRefresh_Click);
-            // 
-            // expenseRefresh
-            // 
-            this.expenseRefresh.Location = new System.Drawing.Point(24, 24);
-            this.expenseRefresh.Name = "expenseRefresh";
-            this.expenseRefresh.Size = new System.Drawing.Size(75, 31);
-            this.expenseRefresh.TabIndex = 23;
-            this.expenseRefresh.Text = "Refresh";
-            this.expenseRefresh.UseVisualStyleBackColor = true;
-            this.expenseRefresh.Click += new System.EventHandler(this.expenseRefresh_Click);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(28, 24);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 31);
-            this.button1.TabIndex = 24;
-            this.button1.Text = "Refresh";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.savNetIncome.Tag = "Net Income";
             // 
             // Home
             // 

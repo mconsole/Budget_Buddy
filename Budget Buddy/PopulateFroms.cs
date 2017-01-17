@@ -30,7 +30,7 @@ namespace Budget_Buddy
             string[][] ja = new string[3][];            
             ja[0] = new string[7] {"Salary", "Bonus", "Disability", "Social Security", "Investments", "Inheritance", "Misc" };
             ja[1] = new string[10] {"Housing", "Utilities", "Groceries", "Transportation", "Eating Out", "Personal", "Entertainment", "Debt Payments", "Savings", "Child" };
-            ja[2] = new string[3] { "Income", "Expense", "Savings" };
+            ja[2] = new string[4] { "Net Income", "Retirement", "Emergency Fund", "Other" };
 
             string[] amountTypes = new string[3] { "Income", "Expense", "Savings" };
             
@@ -74,19 +74,19 @@ namespace Budget_Buddy
             e.Hide();
             home.Show();           
         }
-
-        public void refreshControls(Home home)
+        
+        public void refreshControls(Home home, string tabType)
         {
             DataTable sum = new DataTable();
             IncomeAdd ia = new IncomeAdd();
+            ExpenseAdd ea = new ExpenseAdd();
+            SavingsAdd sa = new SavingsAdd();
 
-            foreach (string item in ia.newIncType.Items)
+            if (tabType == "Income")
             {
-                string[] amountTypes = new string[3] { "Income", "Expense", "Savings" };
-
-                foreach (string type in amountTypes)
+                foreach (string item in ia.newIncType.Items)
                 {
-                    sum = getValues(item, type, Program.tableName);
+                    sum = getValues(item, tabType, Program.tableName);
 
                     if (sum.Rows.Count > 0)
                     {
@@ -117,21 +117,88 @@ namespace Budget_Buddy
                     }
                 }
             }
+            else if (tabType == "Expense")
+            {
+                foreach (string item in ea.newExpType.Items)
+                {
+                    sum = getValues(item, tabType, Program.tableName);
+
+                    if (sum.Rows.Count > 0)
+                    {
+                        foreach (Control con in home.homeTabs.TabPages)
+                        {
+                            foreach (Control con1 in con.Controls)
+                            {
+                                if (sum.Rows[0][0] != null && sum.Rows[0][0].ToString() != "")
+                                {
+                                    try
+                                    {
+                                        if (con1.Tag != null)
+                                        {
+                                            if (con1.Tag.ToString() == item)
+                                            {
+                                                con1.Text = sum.Rows[0][0].ToString();
+                                            }
+                                        }
+                                    }
+                                    catch (Exception ex)
+                                    {
+                                        MessageBox.Show(ex.Message);
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+            //else if (tabType == "Savings")
+            //{
+            //    sum = getValues(item, tabType, Program.tableName);
+
+            //    if (sum.Rows.Count > 0)
+            //    {
+            //        foreach (Control con in home.homeTabs.TabPages)
+            //        {
+            //            foreach (Control con1 in con.Controls)
+            //            {
+            //                if (sum.Rows[0][0] != null && sum.Rows[0][0].ToString() != "")
+            //                {
+            //                    try
+            //                    {
+            //                        if (con1.Tag != null)
+            //                        {
+            //                            if (con1.Tag.ToString() == item)
+            //                            {
+            //                                con1.Text = sum.Rows[0][0].ToString();
+            //                            }
+            //                        }
+            //                    }
+            //                    catch (Exception ex)
+            //                    {
+            //                        MessageBox.Show(ex.Message);
+            //                    }
+            //                }
+            //            }
+
+            //        }
+            //    }
+            //}                                      
         }
 
         public void fillControls(Home home, string type)
         {
             if (type == "Income")
             {
-                refreshControls(home);
+                refreshControls(home, "Income");
             }
             else if (type == "Expense")
             {
-
+                refreshControls(home, "Expense");
             }
             else if (type == "Savings")
             {
-
+                refreshControls(home, "Savings");
             }
             
         }

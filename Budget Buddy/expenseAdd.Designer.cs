@@ -220,18 +220,18 @@
         #endregion
 
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox newExpType;
         private System.Windows.Forms.Button newExpCancel;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox newExpName;
         private System.Windows.Forms.Button newExpClear;
         private System.Windows.Forms.Button newExpAdd;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox newExpUnit;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox newExpAmt;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox newExpInt;
+        public System.Windows.Forms.ComboBox newExpType;
+        public System.Windows.Forms.TextBox newExpName;
+        public System.Windows.Forms.ComboBox newExpUnit;
+        public System.Windows.Forms.TextBox newExpAmt;
+        public System.Windows.Forms.TextBox newExpInt;
     }
 }

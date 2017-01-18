@@ -90,28 +90,25 @@ namespace Budget_Buddy
 
                     if (sum.Rows.Count > 0)
                     {
-                        foreach (Control con in home.homeTabs.TabPages)
+                        foreach (Control con in home.incomeTab.Controls)
                         {
-                            foreach (Control con1 in con.Controls)
+                            if (sum.Rows[0][0] != null && sum.Rows[0][0].ToString() != "")
                             {
-                                if (sum.Rows[0][0] != null && sum.Rows[0][0].ToString() != "")
+                                try
                                 {
-                                    try
+                                    if (con.Tag != null)
                                     {
-                                        if (con1.Tag != null)
+                                        if (con.Tag.ToString() == item)
                                         {
-                                            if (con1.Tag.ToString() == item)
-                                            {
-                                                con1.Text = sum.Rows[0][0].ToString();
-                                            }
+                                            con.Text = sum.Rows[0][0].ToString();
                                         }
                                     }
-                                    catch (Exception ex)
-                                    {
-                                        MessageBox.Show(ex.Message);
-                                    }
                                 }
-                            }
+                                catch (Exception ex)
+                                {
+                                    MessageBox.Show(ex.Message);
+                                }
+                            }                            
 
                         }
                     }
@@ -125,29 +122,27 @@ namespace Budget_Buddy
 
                     if (sum.Rows.Count > 0)
                     {
-                        foreach (Control con in home.homeTabs.TabPages)
-                        {
-                            foreach (Control con1 in con.Controls)
+                        foreach (Control con in home.expenseTab.Controls)
+                        { 
+                            if (sum.Rows[0][0] != null && sum.Rows[0][0].ToString() != "")
                             {
-                                if (sum.Rows[0][0] != null && sum.Rows[0][0].ToString() != "")
+                                try
                                 {
-                                    try
+                                    if (con.Tag != null)
                                     {
-                                        if (con1.Tag != null)
+                                        if (con.Tag.ToString() == item)
                                         {
-                                            if (con1.Tag.ToString() == item)
-                                            {
-                                                con1.Text = sum.Rows[0][0].ToString();
-                                            }
+                                            con.Text = sum.Rows[0][0].ToString();
                                         }
                                     }
-                                    catch (Exception ex)
-                                    {
-                                        MessageBox.Show(ex.Message);
-                                    }
+                                }
+                                catch (Exception ex)
+                                {
+                                    MessageBox.Show(ex.Message);
                                 }
                             }
-
+                            
+                    
                         }
                     }
                 }

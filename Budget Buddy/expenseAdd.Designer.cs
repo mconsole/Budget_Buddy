@@ -131,6 +131,7 @@
             this.newExpAdd.TabIndex = 10;
             this.newExpAdd.Text = "Add";
             this.newExpAdd.UseVisualStyleBackColor = true;
+            this.newExpAdd.Click += new System.EventHandler(this.newExpAdd_Click);
             // 
             // label1
             // 

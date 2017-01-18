@@ -660,7 +660,7 @@
             this.childTot.ReadOnly = true;
             this.childTot.Size = new System.Drawing.Size(201, 23);
             this.childTot.TabIndex = 21;
-            this.childTot.Tag = "Expense";
+            this.childTot.Tag = "Child";
             // 
             // label11
             // 
@@ -679,7 +679,7 @@
             this.savingsExpTot.ReadOnly = true;
             this.savingsExpTot.Size = new System.Drawing.Size(201, 23);
             this.savingsExpTot.TabIndex = 19;
-            this.savingsExpTot.Tag = "Expense";
+            this.savingsExpTot.Tag = "Savings";
             // 
             // label10
             // 
@@ -698,7 +698,7 @@
             this.debtTot.ReadOnly = true;
             this.debtTot.Size = new System.Drawing.Size(201, 23);
             this.debtTot.TabIndex = 17;
-            this.debtTot.Tag = "Expense";
+            this.debtTot.Tag = "Debt Payments";
             // 
             // label9
             // 
@@ -717,7 +717,7 @@
             this.entertainTot.ReadOnly = true;
             this.entertainTot.Size = new System.Drawing.Size(201, 23);
             this.entertainTot.TabIndex = 15;
-            this.entertainTot.Tag = "Expense";
+            this.entertainTot.Tag = "Entertainment";
             // 
             // label8
             // 
@@ -736,7 +736,7 @@
             this.personalTot.ReadOnly = true;
             this.personalTot.Size = new System.Drawing.Size(201, 23);
             this.personalTot.TabIndex = 13;
-            this.personalTot.Tag = "Expense";
+            this.personalTot.Tag = "Personal";
             // 
             // label7
             // 
@@ -755,7 +755,7 @@
             this.eatOutTot.ReadOnly = true;
             this.eatOutTot.Size = new System.Drawing.Size(201, 23);
             this.eatOutTot.TabIndex = 11;
-            this.eatOutTot.Tag = "Expense";
+            this.eatOutTot.Tag = "Eating Out";
             // 
             // label6
             // 
@@ -784,7 +784,7 @@
             this.transTot.ReadOnly = true;
             this.transTot.Size = new System.Drawing.Size(201, 23);
             this.transTot.TabIndex = 8;
-            this.transTot.Tag = "Expense";
+            this.transTot.Tag = "Transportation";
             // 
             // label4
             // 
@@ -803,7 +803,7 @@
             this.groceriesTot.ReadOnly = true;
             this.groceriesTot.Size = new System.Drawing.Size(201, 23);
             this.groceriesTot.TabIndex = 6;
-            this.groceriesTot.Tag = "Expense";
+            this.groceriesTot.Tag = "Groceries";
             // 
             // utilities
             // 
@@ -822,7 +822,7 @@
             this.utilitiesTot.ReadOnly = true;
             this.utilitiesTot.Size = new System.Drawing.Size(201, 23);
             this.utilitiesTot.TabIndex = 4;
-            this.utilitiesTot.Tag = "Expense";
+            this.utilitiesTot.Tag = "Utilities";
             // 
             // label3
             // 
@@ -841,7 +841,7 @@
             this.housingTot.ReadOnly = true;
             this.housingTot.Size = new System.Drawing.Size(201, 23);
             this.housingTot.TabIndex = 2;
-            this.housingTot.Tag = "Expense";
+            this.housingTot.Tag = "Housing";
             // 
             // chart2
             // 

@@ -30,5 +30,12 @@ namespace Budget_Buddy
             newExpUnit.SelectedIndex = 0;
             newExpInt.Text = "";
         }
+
+        private void newExpAdd_Click(object sender, EventArgs e)
+        {
+            DbConnectService dbcs = new DbConnectService();
+            dbcs.submitData(Program.tableName, newExpName.Text, newExpType.Text, int.Parse(newExpAmt.Text), newExpUnit.Text, int.Parse(newExpInt.Text), "Expense");
+            this.Close();
+        }
     }
 }

@@ -16,5 +16,12 @@ namespace Budget_Buddy
         {
             InitializeComponent();
         }
+
+        private void newSavAdd_Click(object sender, EventArgs e)
+        {
+            DbConnectService dbcs = new DbConnectService();
+            dbcs.submitData(Program.tableName, newSavName.Text, newSavType.Text, int.Parse(newSavAmt.Text), newSavUnit.Text, 0, "Savings");
+            this.Close();
+        }
     }
 }

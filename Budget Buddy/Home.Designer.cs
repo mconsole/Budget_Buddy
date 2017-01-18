@@ -190,20 +190,20 @@
             this.addToolStripMenuItem,
             this.editToolStripMenuItem});
             this.incomeToolStripMenuItem.Name = "incomeToolStripMenuItem";
-            this.incomeToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.incomeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.incomeToolStripMenuItem.Text = "Income";
             // 
             // addToolStripMenuItem
             // 
             this.addToolStripMenuItem.Name = "addToolStripMenuItem";
-            this.addToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
+            this.addToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.addToolStripMenuItem.Text = "Add";
             this.addToolStripMenuItem.Click += new System.EventHandler(this.addToolStripMenuItem_Click);
             // 
             // editToolStripMenuItem
             // 
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.editToolStripMenuItem.Text = "Edit";
             // 
             // expensesToolStripMenuItem
@@ -212,7 +212,7 @@
             this.addToolStripMenuItem1,
             this.editToolStripMenuItem1});
             this.expensesToolStripMenuItem.Name = "expensesToolStripMenuItem";
-            this.expensesToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.expensesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.expensesToolStripMenuItem.Text = "Expenses";
             // 
             // addToolStripMenuItem1
@@ -234,19 +234,20 @@
             this.addToolStripMenuItem2,
             this.editToolStripMenuItem2});
             this.savingsToolStripMenuItem.Name = "savingsToolStripMenuItem";
-            this.savingsToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.savingsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.savingsToolStripMenuItem.Text = "Savings";
             // 
             // addToolStripMenuItem2
             // 
             this.addToolStripMenuItem2.Name = "addToolStripMenuItem2";
-            this.addToolStripMenuItem2.Size = new System.Drawing.Size(96, 22);
+            this.addToolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
             this.addToolStripMenuItem2.Text = "Add";
+            this.addToolStripMenuItem2.Click += new System.EventHandler(this.addToolStripMenuItem2_Click);
             // 
             // editToolStripMenuItem2
             // 
             this.editToolStripMenuItem2.Name = "editToolStripMenuItem2";
-            this.editToolStripMenuItem2.Size = new System.Drawing.Size(96, 22);
+            this.editToolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
             this.editToolStripMenuItem2.Text = "Edit";
             // 
             // toolsToolStripMenuItem
@@ -661,6 +662,7 @@
             this.childTot.Size = new System.Drawing.Size(201, 23);
             this.childTot.TabIndex = 21;
             this.childTot.Tag = "Child";
+            this.childTot.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label11
             // 
@@ -680,6 +682,7 @@
             this.savingsExpTot.Size = new System.Drawing.Size(201, 23);
             this.savingsExpTot.TabIndex = 19;
             this.savingsExpTot.Tag = "Savings";
+            this.savingsExpTot.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label10
             // 
@@ -699,6 +702,7 @@
             this.debtTot.Size = new System.Drawing.Size(201, 23);
             this.debtTot.TabIndex = 17;
             this.debtTot.Tag = "Debt Payments";
+            this.debtTot.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label9
             // 
@@ -718,6 +722,7 @@
             this.entertainTot.Size = new System.Drawing.Size(201, 23);
             this.entertainTot.TabIndex = 15;
             this.entertainTot.Tag = "Entertainment";
+            this.entertainTot.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label8
             // 
@@ -737,6 +742,7 @@
             this.personalTot.Size = new System.Drawing.Size(201, 23);
             this.personalTot.TabIndex = 13;
             this.personalTot.Tag = "Personal";
+            this.personalTot.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label7
             // 
@@ -756,6 +762,7 @@
             this.eatOutTot.Size = new System.Drawing.Size(201, 23);
             this.eatOutTot.TabIndex = 11;
             this.eatOutTot.Tag = "Eating Out";
+            this.eatOutTot.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label6
             // 
@@ -785,6 +792,7 @@
             this.transTot.Size = new System.Drawing.Size(201, 23);
             this.transTot.TabIndex = 8;
             this.transTot.Tag = "Transportation";
+            this.transTot.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label4
             // 
@@ -804,6 +812,7 @@
             this.groceriesTot.Size = new System.Drawing.Size(201, 23);
             this.groceriesTot.TabIndex = 6;
             this.groceriesTot.Tag = "Groceries";
+            this.groceriesTot.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // utilities
             // 
@@ -823,6 +832,7 @@
             this.utilitiesTot.Size = new System.Drawing.Size(201, 23);
             this.utilitiesTot.TabIndex = 4;
             this.utilitiesTot.Tag = "Utilities";
+            this.utilitiesTot.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label3
             // 
@@ -842,6 +852,7 @@
             this.housingTot.Size = new System.Drawing.Size(201, 23);
             this.housingTot.TabIndex = 2;
             this.housingTot.Tag = "Housing";
+            this.housingTot.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // chart2
             // 
@@ -922,6 +933,7 @@
             this.savOther.Size = new System.Drawing.Size(201, 23);
             this.savOther.TabIndex = 19;
             this.savOther.Tag = "Other";
+            this.savOther.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label22
             // 
@@ -941,6 +953,7 @@
             this.savEmFund.Size = new System.Drawing.Size(201, 23);
             this.savEmFund.TabIndex = 17;
             this.savEmFund.Tag = "Emergency Fund";
+            this.savEmFund.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label21
             // 
@@ -960,6 +973,7 @@
             this.savRetire.Size = new System.Drawing.Size(201, 23);
             this.savRetire.TabIndex = 15;
             this.savRetire.Tag = "Retirement";
+            this.savRetire.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // chart3
             // 
@@ -1002,6 +1016,7 @@
             this.savNetIncome.Size = new System.Drawing.Size(201, 23);
             this.savNetIncome.TabIndex = 11;
             this.savNetIncome.Tag = "Net Income";
+            this.savNetIncome.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // Home
             // 

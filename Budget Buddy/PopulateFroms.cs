@@ -30,7 +30,7 @@ namespace Budget_Buddy
             string[][] ja = new string[3][];            
             ja[0] = new string[7] {"Salary", "Bonus", "Disability", "Social Security", "Investments", "Inheritance", "Misc" };
             ja[1] = new string[10] {"Housing", "Utilities", "Groceries", "Transportation", "Eating Out", "Personal", "Entertainment", "Debt Payments", "Savings", "Child" };
-            ja[2] = new string[4] { "Net Income", "Retirement", "Emergency Fund", "Other" };
+            ja[2] = new string[3] { "Retirement", "Emergency Fund", "Other" };
 
             string[] amountTypes = new string[3] { "Income", "Expense", "Savings" };
             
@@ -147,38 +147,39 @@ namespace Budget_Buddy
                     }
                 }
             }
-            //else if (tabType == "Savings")
-            //{
-            //    sum = getValues(item, tabType, Program.tableName);
+            else if (tabType == "Savings")
+            {
+                foreach (string item in sa.newSavType.Items)
+                {
+                    sum = getValues(item, tabType, Program.tableName);
 
-            //    if (sum.Rows.Count > 0)
-            //    {
-            //        foreach (Control con in home.homeTabs.TabPages)
-            //        {
-            //            foreach (Control con1 in con.Controls)
-            //            {
-            //                if (sum.Rows[0][0] != null && sum.Rows[0][0].ToString() != "")
-            //                {
-            //                    try
-            //                    {
-            //                        if (con1.Tag != null)
-            //                        {
-            //                            if (con1.Tag.ToString() == item)
-            //                            {
-            //                                con1.Text = sum.Rows[0][0].ToString();
-            //                            }
-            //                        }
-            //                    }
-            //                    catch (Exception ex)
-            //                    {
-            //                        MessageBox.Show(ex.Message);
-            //                    }
-            //                }
-            //            }
+                    if (sum.Rows.Count > 0)
+                    {
+                        foreach (Control con in home.savingsTab.Controls)
+                        {
+                            if (sum.Rows[0][0] != null && sum.Rows[0][0].ToString() != "")
+                            {
+                                try
+                                {
+                                    if (con.Tag != null)
+                                    {
+                                        if (con.Tag.ToString() == item)
+                                        {
+                                            con.Text = sum.Rows[0][0].ToString();
+                                        }
+                                    }
+                                }
+                                catch (Exception ex)
+                                {
+                                    MessageBox.Show(ex.Message);
+                                }
+                            }
 
-            //        }
-            //    }
-            //}                                      
+
+                        }
+                    }
+                }
+            }
         }
 
         public void fillControls(Home home, string type)

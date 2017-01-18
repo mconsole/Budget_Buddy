@@ -75,5 +75,11 @@ namespace Budget_Buddy
             PopulateFroms pf = new PopulateFroms();
             pf.fillControls(this, "Savings");
         }
+
+        private void addToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            SavingsAdd sa = new SavingsAdd();
+            sa.Show();
+        }
     }
 }

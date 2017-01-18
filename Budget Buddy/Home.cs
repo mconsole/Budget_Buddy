@@ -81,5 +81,13 @@ namespace Budget_Buddy
             SavingsAdd sa = new SavingsAdd();
             sa.Show();
         }
+
+        private void switchBudgetToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoadTable lt = new LoadTable();
+            this.Hide();
+            this.Owner = lt;
+            lt.Show();
+        }
     }
 }

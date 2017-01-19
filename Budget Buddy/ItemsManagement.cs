@@ -24,8 +24,11 @@ namespace Budget_Buddy
             DataTable dt = new DataTable();
             DbConnectService dbcs = new DbConnectService();
 
-            dt = dbcs.retrieveDbData("SELECT item_name, item_type, item_amount, item_unit, item_interest, item_category FROM budget_items WHERE item_category = '" + mgmtType + "';");
+            dt = dbcs.retrieveDbData("SELECT * FROM budget_items WHERE item_category = '" + mgmtType + "';");
             MgmtDataGrid.DataSource = dt;
+            MgmtDataGrid.Columns["ID"].Visible = false;
+            MgmtDataGrid.Columns["budget_table"].Visible = false;
+
         }
 
         private void IncMgmtAdd_Click(object sender, EventArgs e)

@@ -121,5 +121,46 @@ namespace Budget_Buddy
             
         }
 
+        public void updateTable(int id, string budgetTable, string itemName, string itemType, int itemAmount, string itemUnit, int interest, string itemCategory)
+        {
+            OleDbConnection con1 = DbConnection();
+
+            try
+            {
+                string sqlStr = "UPDATE budget_items SET budget_table = '" + budgetTable + "', item_name = '" + itemName + "', item_type = '" + itemType + "', item_amount = " + itemAmount + ", item_unit = '" + itemUnit + "', item_interest = " + interest + ", item_category = '" + itemCategory + "' WHERE ID = " + id + ";";
+                OleDbCommand cmd = new OleDbCommand(sqlStr, con1);
+                cmd.CommandType = CommandType.Text;
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                con1.Close();
+            }
+        }
+
+        public void deleteRow(string sqlStr)
+        {
+            OleDbConnection con1 = DbConnection();
+
+            try
+            {                
+                OleDbCommand cmd = new OleDbCommand(sqlStr, con1);
+                cmd.CommandType = CommandType.Text;
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                con1.Close();
+            }            
+        }
+
     }
 }

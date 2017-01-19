@@ -32,9 +32,19 @@ namespace Budget_Buddy
 
         private void newIncAdd_Click(object sender, EventArgs e)
         {
-            DbConnectService dbcs = new DbConnectService();
-            dbcs.submitData(Program.tableName, newIncName.Text, newIncType.Text, int.Parse(newIncAmt.Text), newIncAmtUnit.Text, 0, "Income");
-            this.Close();
+            if (this.IncAddLabel.Text == "New Income Item:")
+            {
+                DbConnectService dbcs = new DbConnectService();
+                dbcs.submitData(Program.tableName, newIncName.Text, newIncType.Text, int.Parse(newIncAmt.Text), newIncAmtUnit.Text, 0, "Income");
+                this.Close();
+            }
+            else if(this.IncAddLabel.Text == "Edit Income Item:")
+            {
+                DbConnectService dbcs = new DbConnectService();
+                dbcs.updateTable(int.Parse(this.Tag.ToString()), Program.tableName, newIncName.Text, newIncType.Text, int.Parse(newIncAmt.Text), newIncAmtUnit.Text, 0, "Income");
+                this.Close();                                                
+            }
+            
         }
 
         private void IncomeAdd_Load(object sender, EventArgs e)

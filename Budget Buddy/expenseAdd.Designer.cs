@@ -32,7 +32,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.newExpType = new System.Windows.Forms.ComboBox();
             this.newExpCancel = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
+            this.expAddLabel = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.newExpName = new System.Windows.Forms.TextBox();
             this.newExpClear = new System.Windows.Forms.Button();
@@ -86,15 +86,15 @@
             this.newExpCancel.UseVisualStyleBackColor = true;
             this.newExpCancel.Click += new System.EventHandler(this.newExpCancel_Click);
             // 
-            // label3
+            // expAddLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(79, 33);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(202, 26);
-            this.label3.TabIndex = 14;
-            this.label3.Text = "New Expense Item:";
+            this.expAddLabel.AutoSize = true;
+            this.expAddLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.expAddLabel.Location = new System.Drawing.Point(79, 33);
+            this.expAddLabel.Name = "expAddLabel";
+            this.expAddLabel.Size = new System.Drawing.Size(202, 26);
+            this.expAddLabel.TabIndex = 14;
+            this.expAddLabel.Text = "New Expense Item:";
             // 
             // label2
             // 
@@ -204,7 +204,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.newExpType);
             this.Controls.Add(this.newExpCancel);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.expAddLabel);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.newExpName);
             this.Controls.Add(this.newExpClear);
@@ -222,7 +222,6 @@
 
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button newExpCancel;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button newExpClear;
         private System.Windows.Forms.Button newExpAdd;
@@ -234,5 +233,6 @@
         public System.Windows.Forms.ComboBox newExpUnit;
         public System.Windows.Forms.TextBox newExpAmt;
         public System.Windows.Forms.TextBox newExpInt;
+        public System.Windows.Forms.Label expAddLabel;
     }
 }

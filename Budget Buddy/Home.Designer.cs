@@ -113,22 +113,16 @@
             this.label14 = new System.Windows.Forms.Label();
             this.savNetIncome = new System.Windows.Forms.TextBox();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.switchBudgetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.managementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.incomeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.addToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.expensesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.addToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.editToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.savingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.addToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.editToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.switchBudgetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.homeTabs.SuspendLayout();
             this.overview.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.expenses)).BeginInit();
@@ -901,10 +895,17 @@
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "&File";
             // 
+            // switchBudgetToolStripMenuItem
+            // 
+            this.switchBudgetToolStripMenuItem.Name = "switchBudgetToolStripMenuItem";
+            this.switchBudgetToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.switchBudgetToolStripMenuItem.Text = "Switch Budget";
+            this.switchBudgetToolStripMenuItem.Click += new System.EventHandler(this.switchBudgetToolStripMenuItem_Click);
+            // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.exitToolStripMenuItem.Text = "E&xit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -920,69 +921,24 @@
             // 
             // incomeToolStripMenuItem
             // 
-            this.incomeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.addToolStripMenuItem,
-            this.editToolStripMenuItem});
             this.incomeToolStripMenuItem.Name = "incomeToolStripMenuItem";
             this.incomeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.incomeToolStripMenuItem.Text = "Income";
-            // 
-            // addToolStripMenuItem
-            // 
-            this.addToolStripMenuItem.Name = "addToolStripMenuItem";
-            this.addToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
-            this.addToolStripMenuItem.Text = "Add";
-            this.addToolStripMenuItem.Click += new System.EventHandler(this.addToolStripMenuItem_Click);
-            // 
-            // editToolStripMenuItem
-            // 
-            this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
-            this.editToolStripMenuItem.Text = "Edit";
+            this.incomeToolStripMenuItem.Click += new System.EventHandler(this.incomeToolStripMenuItem_Click);
             // 
             // expensesToolStripMenuItem
             // 
-            this.expensesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.addToolStripMenuItem1,
-            this.editToolStripMenuItem1});
             this.expensesToolStripMenuItem.Name = "expensesToolStripMenuItem";
             this.expensesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.expensesToolStripMenuItem.Text = "Expenses";
-            // 
-            // addToolStripMenuItem1
-            // 
-            this.addToolStripMenuItem1.Name = "addToolStripMenuItem1";
-            this.addToolStripMenuItem1.Size = new System.Drawing.Size(96, 22);
-            this.addToolStripMenuItem1.Text = "Add";
-            this.addToolStripMenuItem1.Click += new System.EventHandler(this.addToolStripMenuItem1_Click);
-            // 
-            // editToolStripMenuItem1
-            // 
-            this.editToolStripMenuItem1.Name = "editToolStripMenuItem1";
-            this.editToolStripMenuItem1.Size = new System.Drawing.Size(96, 22);
-            this.editToolStripMenuItem1.Text = "Edit";
+            this.expensesToolStripMenuItem.Click += new System.EventHandler(this.expensesToolStripMenuItem_Click);
             // 
             // savingsToolStripMenuItem
             // 
-            this.savingsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.addToolStripMenuItem2,
-            this.editToolStripMenuItem2});
             this.savingsToolStripMenuItem.Name = "savingsToolStripMenuItem";
             this.savingsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.savingsToolStripMenuItem.Text = "Savings";
-            // 
-            // addToolStripMenuItem2
-            // 
-            this.addToolStripMenuItem2.Name = "addToolStripMenuItem2";
-            this.addToolStripMenuItem2.Size = new System.Drawing.Size(96, 22);
-            this.addToolStripMenuItem2.Text = "Add";
-            this.addToolStripMenuItem2.Click += new System.EventHandler(this.addToolStripMenuItem2_Click);
-            // 
-            // editToolStripMenuItem2
-            // 
-            this.editToolStripMenuItem2.Name = "editToolStripMenuItem2";
-            this.editToolStripMenuItem2.Size = new System.Drawing.Size(96, 22);
-            this.editToolStripMenuItem2.Text = "Edit";
+            this.savingsToolStripMenuItem.Click += new System.EventHandler(this.savingsToolStripMenuItem_Click);
             // 
             // toolsToolStripMenuItem
             // 
@@ -1001,7 +957,7 @@
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.aboutToolStripMenuItem.Text = "&About...";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -1019,13 +975,6 @@
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
-            // 
-            // switchBudgetToolStripMenuItem
-            // 
-            this.switchBudgetToolStripMenuItem.Name = "switchBudgetToolStripMenuItem";
-            this.switchBudgetToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.switchBudgetToolStripMenuItem.Text = "Switch Budget";
-            this.switchBudgetToolStripMenuItem.Click += new System.EventHandler(this.switchBudgetToolStripMenuItem_Click);
             // 
             // Home
             // 
@@ -1133,14 +1082,8 @@
         public System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         public System.Windows.Forms.ToolStripMenuItem managementToolStripMenuItem;
         public System.Windows.Forms.ToolStripMenuItem incomeToolStripMenuItem;
-        public System.Windows.Forms.ToolStripMenuItem addToolStripMenuItem;
-        public System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;
         public System.Windows.Forms.ToolStripMenuItem expensesToolStripMenuItem;
-        public System.Windows.Forms.ToolStripMenuItem addToolStripMenuItem1;
-        public System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem1;
         public System.Windows.Forms.ToolStripMenuItem savingsToolStripMenuItem;
-        public System.Windows.Forms.ToolStripMenuItem addToolStripMenuItem2;
-        public System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem2;
         public System.Windows.Forms.ToolStripMenuItem toolsToolStripMenuItem;
         public System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         public System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;

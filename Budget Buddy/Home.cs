@@ -12,7 +12,7 @@ namespace Budget_Buddy
 {
     public partial class Home : Form
     {
-        Control activePanel;
+        Control activePanel;        
 
         public Home()
         {
@@ -88,6 +88,30 @@ namespace Budget_Buddy
             this.Hide();
             this.Owner = lt;
             lt.Show();
+        }
+
+        private void incomeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ItemsManagement im = new ItemsManagement();
+            im.mgmtType = "Income";
+            im.Text = "Income Item Management";
+            im.Show();
+        }
+
+        private void expensesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ItemsManagement im = new ItemsManagement();
+            im.mgmtType = "Expense";
+            im.Text = "Expense Item Management";
+            im.Show();
+        }
+
+        private void savingsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ItemsManagement im = new ItemsManagement();
+            im.mgmtType = "Savings";
+            im.Text = "Savings Item Management";
+            im.Show();
         }
     }
 }

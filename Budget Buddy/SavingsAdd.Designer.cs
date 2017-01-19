@@ -36,7 +36,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.newSavType = new System.Windows.Forms.ComboBox();
             this.newSavCancel = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
+            this.newSavLabel = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.newSavName = new System.Windows.Forms.TextBox();
             this.newSavClear = new System.Windows.Forms.Button();
@@ -116,15 +116,15 @@
             this.newSavCancel.Text = "Cancel";
             this.newSavCancel.UseVisualStyleBackColor = true;
             // 
-            // label3
+            // newSavLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(85, 32);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(195, 26);
-            this.label3.TabIndex = 18;
-            this.label3.Text = "New Savings Item:";
+            this.newSavLabel.AutoSize = true;
+            this.newSavLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.newSavLabel.Location = new System.Drawing.Point(85, 32);
+            this.newSavLabel.Name = "newSavLabel";
+            this.newSavLabel.Size = new System.Drawing.Size(195, 26);
+            this.newSavLabel.TabIndex = 18;
+            this.newSavLabel.Text = "New Savings Item:";
             // 
             // label2
             // 
@@ -174,7 +174,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.newSavType);
             this.Controls.Add(this.newSavCancel);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.newSavLabel);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.newSavName);
             this.Controls.Add(this.newSavClear);
@@ -198,10 +198,10 @@
         private System.Windows.Forms.Label label4;
         public System.Windows.Forms.ComboBox newSavType;
         public System.Windows.Forms.Button newSavCancel;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         public System.Windows.Forms.TextBox newSavName;
         public System.Windows.Forms.Button newSavClear;
         public System.Windows.Forms.Button newSavAdd;
+        public System.Windows.Forms.Label newSavLabel;
     }
 }

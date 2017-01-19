@@ -33,7 +33,8 @@ namespace Budget_Buddy
 
         private void Home_Load(object sender, EventArgs e)
         {
-            
+            PopulateFroms pf = new PopulateFroms();
+            pf.calcNetIncome(this);
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)

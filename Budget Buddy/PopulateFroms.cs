@@ -69,6 +69,8 @@ namespace Budget_Buddy
                     }
                 }
             }
+
+            
             
             e.Owner = home;
             e.Hide();
@@ -197,6 +199,28 @@ namespace Budget_Buddy
                 refreshControls(home, "Savings");
             }
             
+        }
+
+        public void calcNetIncome(Home e)
+        {
+            try
+            {
+                string sqlstr1 = "SELECT SUM(item_amount) AS item_amount FROM budget_items WHERE item_category LIKE '%Income%'";
+                string sqlstr2 = "SELECT SUM(item_amount) AS item_amount FROM budget_items WHERE item_category LIKE '%Expense%'";
+
+                DbConnectService dbcs = new DbConnectService();
+                DataTable incVal = dbcs.retrieveDbData(sqlstr1);
+                DataTable expVal = dbcs.retrieveDbData(sqlstr2);
+
+                int inc = int.Parse(incVal.Rows[0][0].ToString());
+                int exp = int.Parse(expVal.Rows[0][0].ToString());
+
+                e.savNetIncome.Text = (inc - exp).ToString();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

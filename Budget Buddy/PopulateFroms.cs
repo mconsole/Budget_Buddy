@@ -216,6 +216,19 @@ namespace Budget_Buddy
                 int exp = int.Parse(expVal.Rows[0][0].ToString());
 
                 e.savNetIncome.Text = (inc - exp).ToString();
+
+                if ((inc - exp) < 0)
+                {
+                    e.savNetIncome.BackColor = System.Drawing.Color.Red;
+                }
+                else if ((inc - exp) == 0)
+                {
+                    e.savNetIncome.BackColor = System.Drawing.Color.Yellow;
+                }
+                else
+                {
+                    e.savNetIncome.BackColor = System.Drawing.Color.White;
+                }
             }
             catch (Exception ex)
             {

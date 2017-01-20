@@ -35,6 +35,17 @@ namespace Budget_Buddy
         {
             PopulateFroms pf = new PopulateFroms();
             pf.calcNetIncome(this);
+
+            //foreach (TabPage tp in this.homeTabs.TabPages)
+            //{
+            //    foreach (Control tb in tp.Controls)
+            //    {
+            //        if (tb is TextBox)
+            //        {
+            //            tb.Text = string.Format("{0:#,##0.00}");
+            //        }
+            //    }                
+            //}
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -75,6 +86,7 @@ namespace Budget_Buddy
         {
             PopulateFroms pf = new PopulateFroms();
             pf.fillControls(this, "Savings");
+            pf.calcNetIncome(this);
         }
 
         private void addToolStripMenuItem2_Click(object sender, EventArgs e)
